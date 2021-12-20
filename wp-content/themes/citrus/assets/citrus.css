@@ -291,8 +291,8 @@ div.header-main .mainmenu a {
 }
 
 .circle {
- width: 280px;
- height: 280px;
+ width: 280px !important;
+ height: 280px !important;
  border-radius: 50%;
  font-size: 2em;
  font-weight: 700;
