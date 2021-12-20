@@ -1,0 +1,241 @@
+# Translation of Plugins - Enable Media Replace - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - Enable Media Replace - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-11-23 12:57:58+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - Enable Media Replace - Stable (latest release)\n"
+
+#: views/popup.php:217
+msgid "Put new Upload in Updated Folder: "
+msgstr "Neuen Upload in aktualisierten Ordner legen: "
+
+#: views/popup.php:162
+msgid "Note: If you check this option, the name and type of the file you are about to upload will replace the old file. All links pointing to the current file (%s) will be updated to point to the new file name. (If any other websites link to the file directly, those links will no longer work. Be careful.)"
+msgstr "Hinweis: Wenn du diese Option wählst, werden der Name und der Typ der Datei, die du hochladen willst, die alte Datei ersetzen. Alle Verlinkungen zur aktuellen Datei (%s) werden durch den neuen Dateinamen ersetzt. (Wenn andere Websites zur alten Datei verweisen, werden diese Links nicht mehr funktionieren. Sei vorsichtig.) "
+
+#: build/shortpixel/notices/src/NoticeModel.php:218
+msgid "Hide Details"
+msgstr "Details verbergen"
+
+#: build/shortpixel/notices/src/NoticeModel.php:214
+msgid "See Details"
+msgstr "Details anzeigen"
+
+#: classes/emr-plugin.php:464
+msgid "Replaced By"
+msgstr "Ersetzt durch"
+
+#: classes/replacer.php:337
+msgid "In specificied directory there is already a file with the same name. Can't replace."
+msgstr "Im Verzeichnis gibt es bereits eine Datei mit dem gleichen Namen. Sie kann nicht ersetzt werden."
+
+#: views/popup.php:100
+msgid "Drop File Here"
+msgstr "Datei hierher ziehen"
+
+#: classes/replacer.php:314
+msgid "Specificed new directory does not exist. Path must be a relative path from the upload directory and exist"
+msgstr "Das neue Verzeichnis existiert nicht. Der Pfad muss existieren und ein relativer Pfad aus dem Upload-Verzeichnis sein"
+
+#: classes/replacer.php:367
+msgid "EMR could not establish a proper destination for replacement"
+msgstr "EMR konnte keinen passenden Zielort zum Ersetzen festlegen"
+
+#: views/upsell.php:106
+msgid "FIND OUT MORE"
+msgstr "MEHR HERAUSFINDEN"
+
+#: classes/emr-plugin.php:316
+msgid "Thumbnails were not generated"
+msgstr "Es wurden keine Vorschaubilder generiert"
+
+#: classes/emr-plugin.php:283
+msgid "Replaced Thumbnails Preview"
+msgstr "Vorschau für ersetzte Vorschaubilder"
+
+#: views/upload.php:186
+msgid "File successfully replaced"
+msgstr "Datei erfolgreich ersetzt"
+
+#: views/popup.php:86
+msgid "Maximum file size: <strong>%s</strong>"
+msgstr "Maximale Dateigröße: <strong>%s</strong>"
+
+#: build/shortpixel/log/src/DebugItem.php:35
+msgid "[Data]"
+msgstr "[Daten]"
+
+#: views/popup.php:87
+msgid "%s f %s exceeds the maximum upload size for this site."
+msgstr "%s f %s überschreitet die maximal zulässige Upload-Größe für diese Website."
+
+#: views/upload.php:82
+msgid "Invalid Custom Date. Please custom date values (%s)"
+msgstr "Ungültiges eigenes Datumsformat. Bitte passe das Format an (%s)"
+
+#: views/upload.php:181
+msgid "File Upload seems to have failed. No files were returned by system"
+msgstr "Der Datei-Upload ist anscheinend fehlgeschlagen. Es wurde keine Datei vom System zurückgegeben."
+
+#: classes/replacer.php:131
+msgid "The uploaded file could not be moved to %1$s. This is most likely an issue with permissions, or upload failed."
+msgstr "Die hochgeladene Datei konnte nicht nach %1$s verschoben werden. Das ist wahrscheinlich ein Problem mit Berechtigungen oder der Upload ist fehlgeschlagen."
+
+#: views/popup.php:130
+msgid "Replacement Options"
+msgstr "Ersetzungsoptionen"
+
+#: views/popup.php:171
+msgid "Date Options"
+msgstr "Datumsoptionen"
+
+#: views/popup.php:191
+msgid "Set a Custom Date"
+msgstr "eigenes Datum setzen"
+
+#: views/notice.php:11
+msgid "More info"
+msgstr "Mehr Info"
+
+#: views/popup.php:187
+msgid "When replacing the media, do you want to:"
+msgstr "Beim Ersetzen des Bildes soll das Datum wie folgt geändert werden:"
+
+#: views/popup.php:195
+msgid "Custom Date"
+msgstr "Eigenes Datum"
+
+#: views/notice.php:6
+msgid "Enable Media Replace is now compatible with ShortPixel!"
+msgstr "Enable Media Replace ist ab sofort kompatibel mit ShortPixel!"
+
+#. Author of the plugin
+msgid "ShortPixel"
+msgstr "ShortPixel"
+
+#. Author URI of the plugin
+msgid "https://shortpixel.com"
+msgstr "https://shortpixel.com"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/enable-media-replace/"
+msgstr "https://wordpress.org/plugins/enable-media-replace/"
+
+#: views/popup.php:81
+msgid "NOTE: You are about to replace the media file \"%s\". There is no undo. Think about it!"
+msgstr "ACHTUNG: Du bist dabei, die Datei „%s“ zu ersetzen. Dies lässt sich nicht rückgängig machen. Denke gut darüber nach!"
+
+#: classes/emr-plugin.php:449
+msgid "M j, Y @ H:i"
+msgstr "j. M Y \\u\\m G:i"
+
+#: views/notice.php:8
+msgid "<a href=\"https://shortpixel.com/wp/af/VKG6LYN28044\" target=\"_blank\">ShortPixel</a> is an image optimization plugin and if you have it activated, upon replacing an image in Enable Media Replace, the image will be also automatically optimized."
+msgstr "<a href=\"https://shortpixel.com/wp/af/VKG6LYN28044\" target=\"_blank\">ShortPixel</a> ist ein Plugin zur Bild-Optimierung. Wenn du es aktiviert hast und ein Bild per Enable Media Replace ersetzt, wird auch dieses Bild automatisch optimiert."
+
+#: views/popup.php:145
+msgid "Note: This option requires you to upload a file of the same type (%s) as the one you are replacing. The name of the attachment will stay the same (%s) no matter what the file you upload is called."
+msgstr "Anmerkung: Bei dieser Option musst du eine Datei vom gleichen Typ hochladen wie diejenige, die ersetzt wird (%s). Der Name des Anhangs (%s) wird beibehalten, egal wie die neu hochgeladene Datei heißt."
+
+#: views/notice.php:2
+msgid "Dismiss"
+msgstr "Ausblenden"
+
+#: views/popup.php:190
+msgid "Keep the date %s(%s)%s"
+msgstr "Datum beibehalten %s(%s)%s"
+
+#: classes/emr-plugin.php:115 classes/emr-plugin.php:363
+#: classes/emr-plugin.php:402
+msgid "Replace media"
+msgstr "Datei ersetzen"
+
+#: classes/emr-plugin.php:303 classes/emr-plugin.php:365
+msgid "Upload a new file"
+msgstr "Eine neue Datei hochladen"
+
+#: classes/emr-plugin.php:303 classes/emr-plugin.php:365
+msgid "To replace the current file, click the link and upload a replacement."
+msgstr "Eine neue Datei hochladen, die die aktuelle ersetzen soll."
+
+#: views/popup.php:64
+msgid "Replace Media Upload"
+msgstr "Medien-Datei ersetzen"
+
+#: views/popup.php:85
+msgid "Choose a file to upload from your computer"
+msgstr "Datei vom Computer auswählen:"
+
+#: views/popup.php:226
+msgid "Upload"
+msgstr "Hochladen"
+
+#: views/popup.php:227
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#. Plugin Name of the plugin
+msgid "Enable Media Replace"
+msgstr "Enable Media Replace"
+
+#: classes/emr-plugin.php:452
+msgid "Revised"
+msgstr "Zuletzt geändert"
+
+#: views/popup.php:141
+msgid "Just replace the file"
+msgstr "Originaldatei ersetzen"
+
+#: views/popup.php:23 views/upload.php:11
+msgid "You do not have permission to upload files."
+msgstr "Du hast nicht die benötigten Rechte, um Dateien hochzuladen."
+
+#: views/upload.php:137
+msgid "File type does not meet security guidelines. Try another."
+msgstr "Dateityp entspricht nicht den Sicherheitsrichtlinien. Probier es mit einem anderen."
+
+#: views/popup.php:164
+msgid "Please note that if you upload a new image, only embeds/links of the original size image will be replaced in your posts."
+msgstr "Bitte beachte: nur eingebettete Medien oder Links des Originalbildes werden ersetzt, wenn du ein neues Bild hochlädst – nicht aber die verkleinerten Versionen (Vorschaubilder, Mittelgroß, Groß, etc)."
+
+#: views/popup.php:159
+msgid "Replace the file, use new file name and update all links"
+msgstr "Datei ersetzen, aber neuen Dateinamen verwenden und alle Links automatisch aktualisieren."
+
+#: classes/emr-plugin.php:328 views/popup.php:207
+msgid "Original"
+msgstr "Original"
+
+#: classes/emr-plugin.php:279
+msgid "Replace Media"
+msgstr "Datei ersetzen"
+
+#: views/popup.php:79
+msgid "Choose Replacement Media"
+msgstr "Ersatz-Bild wählen"
+
+#: classes/replacer.php:473
+msgid "Fail Safe :: Source Location seems to be a directory."
+msgstr "Fehler beim Speichern :: Die Quelle scheint ein Verzeichnis zu sein."
+
+#: classes/replacer.php:480
+msgid "Fail Safe :: Source Location returned empty string. Not replacing content"
+msgstr "Fehler beim Speichern :: Die Quelle gab eine leere Zeichenfolge zurück. Der Inhalt wird nicht ersetzt."
+
+#: views/popup.php:94
+msgid "Replacement file type doesn't seem to be allowed by WordPress. This might cause unexpected issues"
+msgstr "Der Dateityp zum Ersetzen scheint von WordPress nicht erlaubt zu sein. Dies könnte zu unerwarteten Problemen führen."
+
+#: classes/replacer.php:557
+msgid "There was an issue with updating your image URLS: Search and replace have different amount of values. Aborting updating thumbnails"
+msgstr "Es gab ein Problem mit der Aktualisierung der Bild-URLs: „Suchen und Ersetzen“ hat eine unterschiedliche Anzahl an Werten ergeben. Abbruch der Aktualisierung der Vorschaubilder."
+
+#. Description of the plugin
+msgid "Enable replacing media files by uploading a new file in the \"Edit Media\" section of the WordPress Media Library."
+msgstr "Ermöglicht das Ersetzen von Medien-Dateien durch das Hochladen einer neuen Datei in den „Dateianhang-Details“ der WordPress-Mediathek."
