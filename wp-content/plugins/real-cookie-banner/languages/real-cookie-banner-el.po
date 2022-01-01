@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#: inc/Assets.php:1
+msgid "Use on legal basis of"
+msgstr "Χρήση σε νόμιμη βάση"
+
+#: inc/Assets.php:1
+msgid "Legitimate interest"
+msgstr "Νόμιμο συμφέρον"
+
+#: inc/Assets.php:1
+msgid "Compliance with a legal obligation"
+msgstr "Συμμόρφωση με νομική υποχρέωση"
+
+#: inc/Assets.php:1
+msgid "Consent"
+msgstr "Συναίνεση"
+
+#: inc/Assets.php:1
+msgid "We have recognized that you are a crawler/bot. Only natural persons must consent to cookies and processing of personal data. Therefore, the link has no function for you."
+msgstr "Αναγνωρίσαμε ότι είστε crawler/bot. Μόνο τα φυσικά πρόσωπα πρέπει να συναινούν στα cookies και στην επεξεργασία προσωπικών δεδομένων. Ως εκ τούτου, ο σύνδεσμος δεν έχει καμία λειτουργία για εσάς."
+
+#: inc/Assets.php:1
+msgid "Technical cookie definition"
+msgstr "Τεχνικός ορισμός cookie"
+
+#: inc/Assets.php:1
+msgid "Uses cookies"
+msgstr "Χρησιμοποιεί cookies"
+
+#: inc/Assets.php:1
+msgid "Cookie refresh"
+msgstr "Ανανεωτικό μπισκότο"
+
+#: inc/Assets.php:1
+msgid "Uses cookie-like information (LocalStorage, SessionStorage, IndexDB, etc.)"
+msgstr "Χρησιμοποιεί πληροφορίες που μοιάζουν με cookie (LocalStorage, SessionStorage, IndexDB κ.λπ.)"
+
+#: inc/Assets.php:1
+msgid "Host"
+msgstr "Οικοδεσπότης"
+
+#: inc/Assets.php:1
+msgid "Duration"
+msgstr "Διάρκεια"
+
+#: inc/Assets.php:1
+msgid "second(s)"
+msgstr "δευτερόλεπτο(α)"
+
+#: inc/Assets.php:1
+msgid "minute(s)"
+msgstr "λεπτό(α)"
+
+#: inc/Assets.php:1
+msgid "hour(s)"
+msgstr "ώρα(ες)"
+
+#: inc/Assets.php:1
+msgid "day(s)"
+msgstr "ημέρα(ες)"
+
+#: inc/Assets.php:1
+msgid "month(s)"
+msgstr "μήνας(ες)"
+
+#: inc/Assets.php:1
+msgid "year(s)"
+msgstr "έτος(α)"
+
+#: inc/Assets.php:1
+msgid "Type"
+msgstr "Τύπος"
+
+#: inc/Assets.php:1
+msgid "Purpose"
+msgstr "Σκοπός"
+
+#: inc/Assets.php:1
+msgid "History of your privacy settings"
+msgstr "Ιστορικό των ρυθμίσεων απορρήτου σας"
+
+#: inc/Assets.php:1
+msgid "Show consent from"
+msgstr "Εμφάνιση συγκατάθεσης από"
+
+#: inc/Assets.php:1
+msgid "Not yet consented to"
+msgstr "Δεν έχει ακόμη συναινέσει"
+
+#: inc/Assets.php:1
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: inc/Assets.php:1
+msgid "Close without saving"
+msgstr "Κλείσιμο χωρίς αποθήκευση"
+
+#: inc/Assets.php:1
+msgid "Provider"
+msgstr "Πάροχος"
+
+#: inc/Assets.php:1
+msgid "Privacy Policy"
+msgstr "Πολιτική απορρήτου"
+
+#: inc/Assets.php:1
+msgid "and %d more"
+msgstr "και %d περισσότερα"
+
+#: inc/Assets.php:1
+msgid "US data processing"
+msgstr "Επεξεργασία δεδομένων στις ΗΠΑ"
+
+#: inc/Assets.php:1
+msgid "Yes"
+msgstr "Ναι"
+
+#: inc/Assets.php:1
+msgid "No"
+msgstr "Όχι"
+
+#: inc/Assets.php:1
+msgid "Unknown"
+msgstr "Άγνωστος"
+
+#: inc/Assets.php:1
+msgid "None"
+msgstr "Κανένα"
+
+#: inc/Assets.php:1
+msgid "No license activated - not for production use!"
+msgstr "Δεν έχει ενεργοποιηθεί άδεια χρήσης - όχι για παραγωγική χρήση!"
+
+#: inc/Assets.php:1
+msgid "Product license not for production use!"
+msgstr "Άδεια χρήσης προϊόντος όχι για παραγωγική χρήση!"

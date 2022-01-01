@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#: inc/Assets.php:1
+msgid "Use on legal basis of"
+msgstr "Anvendelse på retsgrundlag af"
+
+#: inc/Assets.php:1
+msgid "Legitimate interest"
+msgstr "Legitim interesse"
+
+#: inc/Assets.php:1
+msgid "Compliance with a legal obligation"
+msgstr "Overholdelse af en retlig forpligtelse"
+
+#: inc/Assets.php:1
+msgid "Consent"
+msgstr "Samtykke"
+
+#: inc/Assets.php:1
+msgid "We have recognized that you are a crawler/bot. Only natural persons must consent to cookies and processing of personal data. Therefore, the link has no function for you."
+msgstr "Vi har opdaget, at du er en crawler/bot. Kun fysiske personer skal give samtykke til cookies og behandling af personoplysninger. Derfor har linket ingen funktion for dig."
+
+#: inc/Assets.php:1
+msgid "Technical cookie definition"
+msgstr "Definition af tekniske cookies"
+
+#: inc/Assets.php:1
+msgid "Uses cookies"
+msgstr "Bruger cookies"
+
+#: inc/Assets.php:1
+msgid "Cookie refresh"
+msgstr "Forfriskende cookies"
+
+#: inc/Assets.php:1
+msgid "Uses cookie-like information (LocalStorage, SessionStorage, IndexDB, etc.)"
+msgstr "Bruger cookie-lignende oplysninger (LocalStorage, SessionStorage, IndexDB osv.)"
+
+#: inc/Assets.php:1
+msgid "Host"
+msgstr "Vært"
+
+#: inc/Assets.php:1
+msgid "Duration"
+msgstr "Varighed"
+
+#: inc/Assets.php:1
+msgid "second(s)"
+msgstr "sekund(er)"
+
+#: inc/Assets.php:1
+msgid "minute(s)"
+msgstr "minut(er)"
+
+#: inc/Assets.php:1
+msgid "hour(s)"
+msgstr "time(r)"
+
+#: inc/Assets.php:1
+msgid "day(s)"
+msgstr "dag(e)"
+
+#: inc/Assets.php:1
+msgid "month(s)"
+msgstr "måned(er)"
+
+#: inc/Assets.php:1
+msgid "year(s)"
+msgstr "år(e)"
+
+#: inc/Assets.php:1
+msgid "Type"
+msgstr "Type"
+
+#: inc/Assets.php:1
+msgid "Purpose"
+msgstr "Formål"
+
+#: inc/Assets.php:1
+msgid "History of your privacy settings"
+msgstr "Historik over dine indstillinger for beskyttelse af personlige oplysninger"
+
+#: inc/Assets.php:1
+msgid "Show consent from"
+msgstr "Vis samtykke fra"
+
+#: inc/Assets.php:1
+msgid "Not yet consented to"
+msgstr "Endnu ikke godkendt"
+
+#: inc/Assets.php:1
+msgid "Close"
+msgstr "Luk"
+
+#: inc/Assets.php:1
+msgid "Close without saving"
+msgstr "Luk uden at gemme"
+
+#: inc/Assets.php:1
+msgid "Provider"
+msgstr "Udbyder"
+
+#: inc/Assets.php:1
+msgid "Privacy Policy"
+msgstr "Privatlivspolitik"
+
+#: inc/Assets.php:1
+msgid "and %d more"
+msgstr "og %d mere"
+
+#: inc/Assets.php:1
+msgid "US data processing"
+msgstr "Databehandling i USA"
+
+#: inc/Assets.php:1
+msgid "Yes"
+msgstr "Ja"
+
+#: inc/Assets.php:1
+msgid "No"
+msgstr "Nej"
+
+#: inc/Assets.php:1
+msgid "Unknown"
+msgstr "Ukendt"
+
+#: inc/Assets.php:1
+msgid "None"
+msgstr "Ingen"
+
+#: inc/Assets.php:1
+msgid "No license activated - not for production use!"
+msgstr "Ingen licens aktiveret - ikke til produktionsbrug!"
+
+#: inc/Assets.php:1
+msgid "Product license not for production use!"
+msgstr "Produktlicens ikke til produktionsbrug!"

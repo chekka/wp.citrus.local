@@ -1,0 +1,466 @@
+0000.001 (0) Opened log file at time: Fri, 24 Dec 2021 03:36:50 +0000 on https://citrus.chekka.de
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.66 WP: 5.8.2 PHP: 7.4.26 (fpm-fcgi, Linux dd33314 5.4.0-91-generic #102-Ubuntu SMP Fri Nov 5 16:31:28 UTC 2021 x86_64) MySQL: 10.5.11-MariaDB-1:10.5.11+maria~focal-log (max packet size=67108864) WPLANG: de_DE Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 70.2M | 38M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 428885.8 MB
+0000.004 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: daily)
+0000.004 (0) Processed schedules. Combining jobs from co-inciding events. Tasks now: Backup files: 1 Backup DB: 1
+0000.007 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1640270218, seconds_ago=46792)
+0000.008 (0) Set semaphore last lock (fd) time to 2021-12-24 03:36:50
+0000.008 (0) Semaphore lock (fd) complete
+0000.009 (0) Backup run: resumption=0, nonce=84ee26f4070d, file_nonce=84ee26f4070d begun at=1640317010 (0s ago), job type=backup
+0000.010 (0) Scheduling a resumption (1) after 300 seconds (1640317310) in case this run gets aborted
+0000.017 (0) Checking if we have a zip executable available
+0000.017 (0) Testing: /usr/bin/zip
+0000.020 (0) Binary zip: error (code: 126)
+0000.020 (0) Testing: /bin/zip
+0000.022 (0) Binary zip: error (code: 126)
+0000.023 (0) Creation of backups of directories: beginning
+0000.024 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.453 (0) Total entities for the zip file: 1264 directories, 6699 files (0 skipped as non-modified), 112.8 MB
+0000.458 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.461 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.464 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.467 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.470 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.472 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.475 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.478 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.480 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.483 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.483 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.7 MB, 6699 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0001.002 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 1100 files added (on-disk size: 2159 KB)
+0001.006 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 1200 files added (on-disk size: 2159 KB)
+0001.010 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 1300 files added (on-disk size: 2159 KB)
+0001.014 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 1400 files added (on-disk size: 2159 KB)
+0001.017 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 1500 files added (on-disk size: 2159 KB)
+0001.022 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 1600 files added (on-disk size: 2159 KB)
+0001.026 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 1700 files added (on-disk size: 2159 KB)
+0001.031 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 1800 files added (on-disk size: 2159 KB)
+0001.036 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 1900 files added (on-disk size: 2159 KB)
+0001.041 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 2000 files added (on-disk size: 2159 KB)
+0001.044 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (24.6 MB, 6699 files batched, 1001 (2002) added so far); re-opening (prior size: 2159 KB)
+0002.680 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 2100 files added (on-disk size: 8994 KB)
+0002.683 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 2200 files added (on-disk size: 8994 KB)
+0002.685 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 2300 files added (on-disk size: 8994 KB)
+0002.688 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 2400 files added (on-disk size: 8994 KB)
+0002.690 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 2500 files added (on-disk size: 8994 KB)
+0002.693 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 2600 files added (on-disk size: 8994 KB)
+0002.696 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 2700 files added (on-disk size: 8994 KB)
+0002.699 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 2800 files added (on-disk size: 8994 KB)
+0002.702 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 2900 files added (on-disk size: 8994 KB)
+0002.704 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 3000 files added (on-disk size: 8994 KB)
+0002.705 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (23.8 MB, 6699 files batched, 1001 (3003) added so far); re-opening (prior size: 8994 KB)
+0004.463 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 3100 files added (on-disk size: 15385.1 KB)
+0004.466 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 3200 files added (on-disk size: 15385.1 KB)
+0004.468 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 3300 files added (on-disk size: 15385.1 KB)
+0004.471 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 3400 files added (on-disk size: 15385.1 KB)
+0004.473 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 3500 files added (on-disk size: 15385.1 KB)
+0004.475 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 3600 files added (on-disk size: 15385.1 KB)
+0004.478 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 3700 files added (on-disk size: 15385.1 KB)
+0004.480 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 3800 files added (on-disk size: 15385.1 KB)
+0004.483 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 3900 files added (on-disk size: 15385.1 KB)
+0004.485 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 4000 files added (on-disk size: 15385.1 KB)
+0004.486 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.3 MB, 6699 files batched, 1001 (4004) added so far); re-opening (prior size: 15385.1 KB)
+0005.300 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 4100 files added (on-disk size: 19685.3 KB)
+0005.303 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 4200 files added (on-disk size: 19685.3 KB)
+0005.306 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 4300 files added (on-disk size: 19685.3 KB)
+0005.309 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 4400 files added (on-disk size: 19685.3 KB)
+0005.312 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 4500 files added (on-disk size: 19685.3 KB)
+0005.315 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 4600 files added (on-disk size: 19685.3 KB)
+0005.317 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 4700 files added (on-disk size: 19685.3 KB)
+0005.320 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 4800 files added (on-disk size: 19685.3 KB)
+0005.323 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 4900 files added (on-disk size: 19685.3 KB)
+0005.326 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 5000 files added (on-disk size: 19685.3 KB)
+0005.327 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (19.6 MB, 6699 files batched, 1001 (5005) added so far); re-opening (prior size: 19685.3 KB)
+0006.719 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 5100 files added (on-disk size: 27695.9 KB)
+0006.722 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 5200 files added (on-disk size: 27695.9 KB)
+0006.724 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 5300 files added (on-disk size: 27695.9 KB)
+0006.727 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 5400 files added (on-disk size: 27695.9 KB)
+0006.729 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 5500 files added (on-disk size: 27695.9 KB)
+0006.732 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 5600 files added (on-disk size: 27695.9 KB)
+0006.735 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 5700 files added (on-disk size: 27695.9 KB)
+0006.737 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 5800 files added (on-disk size: 27695.9 KB)
+0006.740 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 5900 files added (on-disk size: 27695.9 KB)
+0006.742 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 6000 files added (on-disk size: 27695.9 KB)
+0006.743 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (20.4 MB, 6699 files batched, 1001 (6006) added so far); re-opening (prior size: 27695.9 KB)
+0009.919 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 6100 files added (on-disk size: 35480 KB)
+0009.922 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 6200 files added (on-disk size: 35480 KB)
+0009.925 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 6300 files added (on-disk size: 35480 KB)
+0009.927 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 6400 files added (on-disk size: 35480 KB)
+0009.930 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 6500 files added (on-disk size: 35480 KB)
+0009.932 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.tmp: 6600 files added (on-disk size: 35480 KB)
+0011.223 (0) Creating zip file manifest (/www/htdocs/w009570d/citrus.chekka.de/wp.citrus.local/wp-content/updraft/backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.list-temp.tmp)
+0011.240 (0) Successfully created zip file manifest (size: 557778)
+0011.621 (0) Created plugins zip (0) - 38970.2 KB in 11.6 s (3360.6 KB/s) (sha1: c3f3dfc8abb35122cdd2a2e9ba6b1cc0e9aafa0a, sha256: a07b8deac3ce36b72413a3eac545c09f949e96f7e020674f0fca7045da7daa48)
+0011.624 (0) Beginning creation of dump of themes (split every: 400 MB)
+0011.644 (0) Total entities for the zip file: 62 directories, 253 files (0 skipped as non-modified), 10.7 MB
+0011.648 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0011.652 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0011.898 (0) Creating zip file manifest (/www/htdocs/w009570d/citrus.chekka.de/wp.citrus.local/wp-content/updraft/backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-themes.zip.list-temp.tmp)
+0011.900 (0) Successfully created zip file manifest (size: 17074)
+0011.998 (0) Created themes zip (0) - 9627.3 KB in 0.4 s (25755 KB/s) (sha1: 56b57557cd49f0eb8b1691dde9bd7f9a22cad117, sha256: f8ced699a194562145bd8bf0a8aa89126f1ccfb64680d9867d252ceb8f6bd373)
+0012.000 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0012.000 (0) Looking for candidates to backup in: /www/htdocs/w009570d/citrus.chekka.de/wp.citrus.local/wp-content/uploads
+0012.001 (0) finding files: ptetmp: adding to list (1)
+0012.001 (0) finding files: 2018: adding to list (2)
+0012.001 (0) finding files: 2020: adding to list (3)
+0012.002 (0) finding files: wpforms: adding to list (4)
+0012.002 (0) finding files: siteorigin-widgets: adding to list (5)
+0012.003 (0) finding files: 2021: adding to list (6)
+0012.003 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0012.011 (0) Total entities for the zip file: 12 directories, 219 files (0 skipped as non-modified), 20.3 MB
+0012.014 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0012.016 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0012.296 (0) Creating zip file manifest (/www/htdocs/w009570d/citrus.chekka.de/wp.citrus.local/wp-content/updraft/backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-uploads.zip.list-temp.tmp)
+0012.298 (0) Successfully created zip file manifest (size: 14135)
+0012.475 (0) Created uploads zip (0) - 20512.1 KB in 0.5 s (43483.4 KB/s) (sha1: 2cdca70ba945b03603283d424638b0186f69f5ce, sha256: b65b1371d064e4190f502152aee7ae0a9f6268c03f02266ad94762777afd2580)
+0012.477 (0) Beginning backup of other directories found in the content directory (index: 0)
+0012.477 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0012.478 (0) Looking for candidates to backup in: /www/htdocs/w009570d/citrus.chekka.de/wp.citrus.local/wp-content
+0012.479 (0) finding files: bce3bf28c1f2af2c85a00646d5c398ce.js: adding to list (1)
+0012.479 (0) finding files: themes: skipping: this is the themes directory
+0012.479 (0) finding files: upgrade: skipping: excluded by options
+0012.480 (0) finding files: 82f9f7098121c7eb1e26368be9c1db2e.js: adding to list (2)
+0012.480 (0) finding files: wflogs: adding to list (3)
+0012.480 (0) finding files: uploads: skipping: this is the uploads directory
+0012.481 (0) finding files: plugins: skipping: this is the plugins directory
+0012.481 (0) finding files: e078e2a2f1ca655e9916dd54d967d4b6.js: adding to list (4)
+0012.481 (0) finding files: index.php: adding to list (5)
+0012.482 (0) finding files: languages: adding to list (6)
+0012.482 (0) finding files: updraft: skipping: this is the updraft directory
+0012.497 (0) Total entities for the zip file: 4 directories, 356 files (0 skipped as non-modified), 19.4 MB
+0012.501 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0012.504 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0012.507 (0) Zip: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0015.601 (0) Creating zip file manifest (/www/htdocs/w009570d/citrus.chekka.de/wp.citrus.local/wp-content/updraft/backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-others.zip.list-temp.tmp)
+0015.602 (0) Successfully created zip file manifest (size: 21044)
+0015.687 (0) Created others zip (0) - 6575.2 KB in 3.2 s (2052.2 KB/s) (sha1: df762b48ad9fb50d167f63ff11b3ea6e94f445f4, sha256: 6fdc0e9e4dda67a616bdca1aa6684253d2395cd05243f3396f94400386694564)
+0015.690 (0) Saving backup status to database (elements: 8)
+0015.692 (0) Beginning creation of database dump (WordPress DB)
+0015.693 (0) SQL compatibility mode is: NO_ENGINE_SUBSTITUTION
+0015.694 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0015.719 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1540 bytes total)
+0015.720 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0015.731 (0) Table wp_options: Total expected rows (via COUNT): 588
+0015.753 (0) Table wp_options: Rows added in this batch (next record: 2674): 584 (uncompressed bytes in this segment=575441) in 0.02 seconds
+0015.756 (0) Table wp_options: finishing file(s) (2, 104.9 KB)
+0015.758 (0) Table wp_users: Total expected rows (via COUNT): 2
+0015.759 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.760 (0) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1559) in 0.00 seconds
+0015.762 (0) Table wp_users: finishing file(s) (2, 0.7 KB)
+0015.765 (0) Table wp_usermeta: Total expected rows (via COUNT): 54
+0015.765 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.766 (0) Table wp_usermeta: Rows added in this batch (next record: 55): 54 (uncompressed bytes in this segment=5064) in 0.00 seconds
+0015.768 (0) Table wp_usermeta: finishing file(s) (2, 2 KB)
+0015.771 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 11
+0015.771 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.772 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 234): 11 (uncompressed bytes in this segment=6483) in 0.00 seconds
+0015.775 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.2 KB)
+0015.777 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0015.778 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.00 seconds
+0015.779 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0015.782 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 2
+0015.782 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.783 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=706) in 0.00 seconds
+0015.785 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0015.787 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 25
+0015.788 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.789 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 25): 25 (uncompressed bytes in this segment=2920) in 0.00 seconds
+0015.791 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.7 KB)
+0015.794 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0015.795 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=696) in 0.00 seconds
+0015.797 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0015.800 (0) Table wp_comments: Total expected rows (via COUNT): 0
+0015.802 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1697) in 0.00 seconds
+0015.804 (0) Table wp_comments: finishing file(s) (2, 0.5 KB)
+0015.807 (0) Table wp_links: Total expected rows (via COUNT): 0
+0015.808 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1306) in 0.00 seconds
+0015.810 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0015.847 (0) Table wp_postmeta: Total expected rows (approximate): 1108
+0015.896 (0) Table wp_postmeta: Rows added in this batch (next record: 1239): 1063 (uncompressed bytes in this segment=3996340) in 0.09 seconds
+0015.899 (0) Table wp_postmeta: finishing file(s) (2, 155.7 KB)
+0015.945 (0) Table wp_posts: Total expected rows (via COUNT): 541
+0016.012 (0) Table wp_posts: Rows added in this batch (next record: 573): 541 (uncompressed bytes in this segment=5500660) in 0.11 seconds
+0016.014 (0) Table wp_posts: finishing file(s) (2, 184.5 KB)
+0016.016 (0) Table wp_term_relationships: Total expected rows (approximate): 135
+0016.017 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 135 (uncompressed bytes in this segment=2572) in 0.00 seconds
+0016.019 (0) Table wp_term_relationships: finishing file(s) (2, 0.8 KB)
+0016.021 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 40
+0016.022 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.023 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 49): 40 (uncompressed bytes in this segment=4955) in 0.00 seconds
+0016.025 (0) Table wp_term_taxonomy: finishing file(s) (2, 1.9 KB)
+0016.028 (0) Table wp_termmeta: Total expected rows (via COUNT): 10
+0016.028 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.029 (0) Table wp_termmeta: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=974) in 0.00 seconds
+0016.031 (0) Table wp_termmeta: finishing file(s) (2, 0.5 KB)
+0016.033 (0) Table wp_terms: Total expected rows (via COUNT): 40
+0016.034 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.035 (0) Table wp_terms: Rows added in this batch (next record: 49): 40 (uncompressed bytes in this segment=2326) in 0.00 seconds
+0016.036 (0) Table wp_terms: finishing file(s) (2, 0.9 KB)
+0016.039 (0) Table wp_rcb_asset_seo_redirect: Total expected rows (via COUNT): 1
+0016.039 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.040 (0) Table wp_rcb_asset_seo_redirect: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=703) in 0.00 seconds
+0016.042 (0) Table wp_rcb_asset_seo_redirect: finishing file(s) (2, 0.4 KB)
+0016.044 (0) Table wp_rcb_consent: Total expected rows (via COUNT): 2
+0016.045 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.045 (0) Table wp_rcb_consent: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=2976) in 0.00 seconds
+0016.047 (0) Table wp_rcb_consent: finishing file(s) (2, 1 KB)
+0016.055 (0) Table wp_rcb_presets: Total expected rows (via COUNT): 768
+0016.067 (0) Table wp_rcb_presets: Rows added in this batch (next record: 1024): 768 (uncompressed bytes in this segment=226747) in 0.02 seconds
+0016.069 (0) Table wp_rcb_presets: finishing file(s) (2, 29.6 KB)
+0016.071 (0) Table wp_rcb_revision: Total expected rows (via COUNT): 3
+0016.071 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.073 (0) Table wp_rcb_revision: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=8659) in 0.00 seconds
+0016.074 (0) Table wp_rcb_revision: finishing file(s) (2, 2.4 KB)
+0016.076 (0) Table wp_rcb_revision_independent: Total expected rows (via COUNT): 2
+0016.077 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.078 (0) Table wp_rcb_revision_independent: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=16846) in 0.00 seconds
+0016.080 (0) Table wp_rcb_revision_independent: finishing file(s) (2, 3.9 KB)
+0016.085 (0) Table wp_rcb_scan: Total expected rows (via COUNT): 153
+0016.086 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.090 (0) Table wp_rcb_scan: Rows added in this batch (next record: 645): 153 (uncompressed bytes in this segment=160468) in 0.01 seconds
+0016.092 (0) Table wp_rcb_scan: finishing file(s) (2, 5.9 KB)
+0016.095 (0) Table wp_rcb_stats: Total expected rows (via COUNT): 6
+0016.095 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.096 (0) Table wp_rcb_stats: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=1116) in 0.00 seconds
+0016.099 (0) Table wp_rcb_stats: finishing file(s) (2, 0.5 KB)
+0016.101 (0) Table wp_rcb_tcf_features: Total expected rows (approximate): 0
+0016.103 (0) Table wp_rcb_tcf_features: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=808) in 0.00 seconds
+0016.104 (0) Table wp_rcb_tcf_features: finishing file(s) (2, 0.4 KB)
+0016.106 (0) Table wp_rcb_tcf_purposes: Total expected rows (approximate): 0
+0016.107 (0) Table wp_rcb_tcf_purposes: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=808) in 0.00 seconds
+0016.109 (0) Table wp_rcb_tcf_purposes: finishing file(s) (2, 0.4 KB)
+0016.112 (0) Table wp_rcb_tcf_special_features: Total expected rows (approximate): 0
+0016.113 (0) Table wp_rcb_tcf_special_features: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=856) in 0.00 seconds
+0016.115 (0) Table wp_rcb_tcf_special_features: finishing file(s) (2, 0.4 KB)
+0016.116 (0) Table wp_rcb_tcf_special_purposes: Total expected rows (approximate): 0
+0016.117 (0) Table wp_rcb_tcf_special_purposes: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=856) in 0.00 seconds
+0016.119 (0) Table wp_rcb_tcf_special_purposes: finishing file(s) (2, 0.4 KB)
+0016.121 (0) Table wp_rcb_tcf_stacks: Total expected rows (approximate): 0
+0016.122 (0) Table wp_rcb_tcf_stacks: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=929) in 0.00 seconds
+0016.124 (0) Table wp_rcb_tcf_stacks: finishing file(s) (2, 0.4 KB)
+0016.127 (0) Table wp_rcb_tcf_vendors: Total expected rows (approximate): 0
+0016.128 (0) Table wp_rcb_tcf_vendors: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=1333) in 0.00 seconds
+0016.130 (0) Table wp_rcb_tcf_vendors: finishing file(s) (2, 0.5 KB)
+0016.132 (0) Table wp_real_queue: Total expected rows (via COUNT): 0
+0016.132 (0) Table wp_real_queue: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1194) in 0.00 seconds
+0016.134 (0) Table wp_real_queue: finishing file(s) (2, 0.5 KB)
+0016.136 (0) Table wp_wfblockediplog: Total expected rows (approximate): 0
+0016.137 (0) Table wp_wfblockediplog: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=627) in 0.00 seconds
+0016.139 (0) Table wp_wfblockediplog: finishing file(s) (2, 0.4 KB)
+0016.141 (0) Table wp_wfblocks7: Total expected rows (via COUNT): 0
+0016.142 (0) Table wp_wfblocks7: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=816) in 0.00 seconds
+0016.144 (0) Table wp_wfblocks7: finishing file(s) (2, 0.4 KB)
+0016.145 (0) Table wp_wfconfig: Total expected rows (approximate): 242
+0016.152 (0) Table wp_wfconfig: Rows added in this batch (next record: 1000): 242 (uncompressed bytes in this segment=88993) in 0.01 seconds
+0016.154 (0) Table wp_wfconfig: finishing file(s) (2, 18.5 KB)
+0016.156 (0) Table wp_wfcrawlers: Total expected rows (approximate): 0
+0016.157 (0) Table wp_wfcrawlers: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=552) in 0.00 seconds
+0016.158 (0) Table wp_wfcrawlers: finishing file(s) (2, 0.3 KB)
+0016.160 (0) Table wp_wffilechanges: Total expected rows (approximate): 0
+0016.161 (0) Table wp_wffilechanges: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=452) in 0.00 seconds
+0016.163 (0) Table wp_wffilechanges: finishing file(s) (2, 0.3 KB)
+0016.165 (0) Table wp_wffilemods: Total expected rows (approximate): 0
+0016.166 (0) Table wp_wffilemods: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=788) in 0.00 seconds
+0016.168 (0) Table wp_wffilemods: finishing file(s) (2, 0.4 KB)
+0016.170 (0) Table wp_wfhits: Total expected rows (via COUNT): 1
+0016.170 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.171 (0) Table wp_wfhits: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1397) in 0.00 seconds
+0016.173 (0) Table wp_wfhits: finishing file(s) (2, 0.7 KB)
+0016.175 (0) Table wp_wfhoover: Total expected rows (via COUNT): 0
+0016.176 (0) Table wp_wfhoover: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=515) in 0.00 seconds
+0016.178 (0) Table wp_wfhoover: finishing file(s) (2, 0.3 KB)
+0016.180 (0) Table wp_wfissues: Total expected rows (via COUNT): 0
+0016.181 (0) Table wp_wfissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=830) in 0.00 seconds
+0016.182 (0) Table wp_wfissues: finishing file(s) (2, 0.4 KB)
+0016.184 (0) Table wp_wfknownfilelist: Total expected rows (via COUNT): 0
+0016.185 (0) Table wp_wfknownfilelist: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=431) in 0.00 seconds
+0016.186 (0) Table wp_wfknownfilelist: finishing file(s) (2, 0.3 KB)
+0016.188 (0) Table wp_wflivetraffichuman: Total expected rows (approximate): 0
+0016.189 (0) Table wp_wflivetraffichuman: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=648) in 0.00 seconds
+0016.190 (0) Table wp_wflivetraffichuman: finishing file(s) (2, 0.3 KB)
+0016.192 (0) Table wp_wflocs: Total expected rows (approximate): 0
+0016.193 (0) Table wp_wflocs: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=829) in 0.00 seconds
+0016.194 (0) Table wp_wflocs: finishing file(s) (2, 0.5 KB)
+0016.196 (0) Table wp_wflogins: Total expected rows (via COUNT): 1
+0016.197 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.198 (0) Table wp_wflogins: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=964) in 0.00 seconds
+0016.200 (0) Table wp_wflogins: finishing file(s) (2, 0.6 KB)
+0016.202 (0) Table wp_wfls_2fa_secrets: Total expected rows (via COUNT): 0
+0016.204 (0) Table wp_wfls_2fa_secrets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=681) in 0.00 seconds
+0016.206 (0) Table wp_wfls_2fa_secrets: finishing file(s) (2, 0.4 KB)
+0016.207 (0) Table wp_wfls_settings: Total expected rows (approximate): 23
+0016.208 (0) Table wp_wfls_settings: Rows added in this batch (next record: 1000): 23 (uncompressed bytes in this segment=1766) in 0.00 seconds
+0016.209 (0) Table wp_wfls_settings: finishing file(s) (2, 0.8 KB)
+0016.210 (0) Table wp_wfnotifications: Total expected rows (approximate): 1
+0016.211 (0) Table wp_wfnotifications: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=1369) in 0.00 seconds
+0016.213 (0) Table wp_wfnotifications: finishing file(s) (2, 0.7 KB)
+0016.216 (0) Table wp_wfpendingissues: Total expected rows (via COUNT): 0
+0016.216 (0) Table wp_wfpendingissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=872) in 0.00 seconds
+0016.218 (0) Table wp_wfpendingissues: finishing file(s) (2, 0.4 KB)
+0016.219 (0) Table wp_wfreversecache: Total expected rows (approximate): 0
+0016.220 (0) Table wp_wfreversecache: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=630) in 0.00 seconds
+0016.222 (0) Table wp_wfreversecache: finishing file(s) (2, 0.4 KB)
+0016.224 (0) Table wp_wfsnipcache: Total expected rows (via COUNT): 0
+0016.224 (0) Table wp_wfsnipcache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=699) in 0.00 seconds
+0016.226 (0) Table wp_wfsnipcache: finishing file(s) (2, 0.4 KB)
+0016.228 (0) Table wp_wfstatus: Total expected rows (via COUNT): 10
+0016.228 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.230 (0) Table wp_wfstatus: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=1504) in 0.00 seconds
+0016.231 (0) Table wp_wfstatus: finishing file(s) (2, 0.7 KB)
+0016.233 (0) Table wp_wftrafficrates: Total expected rows (approximate): 0
+0016.234 (0) Table wp_wftrafficrates: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=566) in 0.00 seconds
+0016.235 (0) Table wp_wftrafficrates: finishing file(s) (2, 0.3 KB)
+0016.238 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 5
+0016.239 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.240 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1064) in 0.00 seconds
+0016.241 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0016.242 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_options.table.tmpr2675.gz (1/52/fopen): adding to final database dump
+0016.243 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_options.table.gz (2/52/fopen): adding to final database dump
+0016.243 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_users.table.tmpr3.gz (3/52/fopen): adding to final database dump
+0016.244 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_users.table.gz (4/52/fopen): adding to final database dump
+0016.244 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_usermeta.table.tmpr56.gz (5/52/fopen): adding to final database dump
+0016.245 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_usermeta.table.gz (6/52/fopen): adding to final database dump
+0016.245 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_actionscheduler_actions.table.tmpr235.gz (7/52/fopen): adding to final database dump
+0016.245 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_actionscheduler_actions.table.gz (8/52/fopen): adding to final database dump
+0016.246 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/52/fopen): adding to final database dump
+0016.246 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_actionscheduler_claims.table.gz (10/52/fopen): adding to final database dump
+0016.246 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_actionscheduler_groups.table.tmpr3.gz (11/52/fopen): adding to final database dump
+0016.247 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_actionscheduler_groups.table.gz (12/52/fopen): adding to final database dump
+0016.247 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_actionscheduler_logs.table.tmpr26.gz (13/52/fopen): adding to final database dump
+0016.247 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_actionscheduler_logs.table.gz (14/52/fopen): adding to final database dump
+0016.247 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_commentmeta.table.tmpr0.gz (15/52/fopen): adding to final database dump
+0016.248 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_commentmeta.table.gz (16/52/fopen): adding to final database dump
+0016.248 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_comments.table.tmpr0.gz (17/52/fopen): adding to final database dump
+0016.248 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_comments.table.gz (18/52/fopen): adding to final database dump
+0016.249 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_links.table.tmpr0.gz (19/52/fopen): adding to final database dump
+0016.249 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_links.table.gz (20/52/fopen): adding to final database dump
+0016.249 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_postmeta.table.tmpr1240.gz (21/52/fopen): adding to final database dump
+0016.251 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_postmeta.table.gz (22/52/fopen): adding to final database dump
+0016.251 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_posts.table.tmpr574.gz (23/52/fopen): adding to final database dump
+0016.254 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_posts.table.gz (24/52/fopen): adding to final database dump
+0016.254 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_term_relationships.table.tmpr100001.gz (25/52/fopen): adding to final database dump
+0016.255 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_term_relationships.table.gz (26/52/fopen): adding to final database dump
+0016.255 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_term_taxonomy.table.tmpr50.gz (27/52/fopen): adding to final database dump
+0016.256 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_term_taxonomy.table.gz (28/52/fopen): adding to final database dump
+0016.256 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_termmeta.table.tmpr11.gz (29/52/fopen): adding to final database dump
+0016.256 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_termmeta.table.gz (30/52/fopen): adding to final database dump
+0016.257 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_terms.table.tmpr50.gz (31/52/fopen): adding to final database dump
+0016.257 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_terms.table.gz (32/52/fopen): adding to final database dump
+0016.257 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_rcb_asset_seo_redirect.table.tmpr2.gz (33/52/fopen): adding to final database dump
+0016.258 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_rcb_asset_seo_redirect.table.gz (34/52/fopen): adding to final database dump
+0016.258 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_rcb_consent.table.tmpr3.gz (35/52/fopen): adding to final database dump
+0016.258 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_rcb_consent.table.gz (36/52/fopen): adding to final database dump
+0016.259 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_rcb_presets.table.tmpr1025.gz (37/52/fopen): adding to final database dump
+0016.259 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_rcb_presets.table.gz (38/52/fopen): adding to final database dump
+0016.260 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_rcb_revision.table.tmpr4.gz (39/52/fopen): adding to final database dump
+0016.260 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_rcb_revision.table.gz (40/52/fopen): adding to final database dump
+0016.260 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_rcb_revision_independent.table.tmpr3.gz (41/52/fopen): adding to final database dump
+0016.261 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_rcb_revision_independent.table.gz (42/52/fopen): adding to final database dump
+0016.261 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_rcb_scan.table.tmpr646.gz (43/52/fopen): adding to final database dump
+0016.262 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_rcb_scan.table.gz (44/52/fopen): adding to final database dump
+0016.262 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_rcb_stats.table.tmpr7.gz (45/52/fopen): adding to final database dump
+0016.262 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_rcb_stats.table.gz (46/52/fopen): adding to final database dump
+0016.262 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_rcb_tcf_features.table.tmpr1.gz (47/52/fopen): adding to final database dump
+0016.263 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_rcb_tcf_features.table.gz (48/52/fopen): adding to final database dump
+0016.264 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_rcb_tcf_purposes.table.tmpr1.gz (49/52/fopen): adding to final database dump
+0016.264 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_rcb_tcf_purposes.table.gz (50/52/fopen): adding to final database dump
+0016.264 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_rcb_tcf_special_features.table.tmpr1.gz (51/52/fopen): adding to final database dump
+0016.264 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_rcb_tcf_special_features.table.gz (52/52/fopen): adding to final database dump
+0016.265 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_rcb_tcf_special_purposes.table.tmpr1.gz (53/52/fopen): adding to final database dump
+0016.265 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_rcb_tcf_special_purposes.table.gz (54/52/fopen): adding to final database dump
+0016.265 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_rcb_tcf_stacks.table.tmpr1.gz (55/52/fopen): adding to final database dump
+0016.266 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_rcb_tcf_stacks.table.gz (56/52/fopen): adding to final database dump
+0016.266 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_rcb_tcf_vendors.table.tmpr1.gz (57/52/fopen): adding to final database dump
+0016.266 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_rcb_tcf_vendors.table.gz (58/52/fopen): adding to final database dump
+0016.267 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_real_queue.table.tmpr0.gz (59/52/fopen): adding to final database dump
+0016.267 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_real_queue.table.gz (60/52/fopen): adding to final database dump
+0016.267 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wfblockediplog.table.tmpr1.gz (61/52/fopen): adding to final database dump
+0016.268 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wfblockediplog.table.gz (62/52/fopen): adding to final database dump
+0016.268 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wfblocks7.table.tmpr0.gz (63/52/fopen): adding to final database dump
+0016.268 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wfblocks7.table.gz (64/52/fopen): adding to final database dump
+0016.269 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wfconfig.table.tmpr1001.gz (65/52/fopen): adding to final database dump
+0016.269 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wfconfig.table.gz (66/52/fopen): adding to final database dump
+0016.269 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wfcrawlers.table.tmpr1.gz (67/52/fopen): adding to final database dump
+0016.270 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wfcrawlers.table.gz (68/52/fopen): adding to final database dump
+0016.270 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wffilechanges.table.tmpr1.gz (69/52/fopen): adding to final database dump
+0016.270 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wffilechanges.table.gz (70/52/fopen): adding to final database dump
+0016.271 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wffilemods.table.tmpr1.gz (71/52/fopen): adding to final database dump
+0016.271 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wffilemods.table.gz (72/52/fopen): adding to final database dump
+0016.271 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wfhits.table.tmpr2.gz (73/52/fopen): adding to final database dump
+0016.272 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wfhits.table.gz (74/52/fopen): adding to final database dump
+0016.272 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wfhoover.table.tmpr0.gz (75/52/fopen): adding to final database dump
+0016.272 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wfhoover.table.gz (76/52/fopen): adding to final database dump
+0016.273 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wfissues.table.tmpr0.gz (77/52/fopen): adding to final database dump
+0016.273 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wfissues.table.gz (78/52/fopen): adding to final database dump
+0016.273 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wfknownfilelist.table.tmpr0.gz (79/52/fopen): adding to final database dump
+0016.274 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wfknownfilelist.table.gz (80/52/fopen): adding to final database dump
+0016.274 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wflivetraffichuman.table.tmpr1.gz (81/52/fopen): adding to final database dump
+0016.274 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wflivetraffichuman.table.gz (82/52/fopen): adding to final database dump
+0016.275 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wflocs.table.tmpr1001.gz (83/52/fopen): adding to final database dump
+0016.275 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wflocs.table.gz (84/52/fopen): adding to final database dump
+0016.275 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wflogins.table.tmpr2.gz (85/52/fopen): adding to final database dump
+0016.275 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wflogins.table.gz (86/52/fopen): adding to final database dump
+0016.276 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wfls_2fa_secrets.table.tmpr0.gz (87/52/fopen): adding to final database dump
+0016.276 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wfls_2fa_secrets.table.gz (88/52/fopen): adding to final database dump
+0016.276 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wfls_settings.table.tmpr1001.gz (89/52/fopen): adding to final database dump
+0016.277 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wfls_settings.table.gz (90/52/fopen): adding to final database dump
+0016.278 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wfnotifications.table.tmpr1001.gz (91/52/fopen): adding to final database dump
+0016.278 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wfnotifications.table.gz (92/52/fopen): adding to final database dump
+0016.278 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wfpendingissues.table.tmpr0.gz (93/52/fopen): adding to final database dump
+0016.279 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wfpendingissues.table.gz (94/52/fopen): adding to final database dump
+0016.279 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wfreversecache.table.tmpr1001.gz (95/52/fopen): adding to final database dump
+0016.280 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wfreversecache.table.gz (96/52/fopen): adding to final database dump
+0016.280 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wfsnipcache.table.tmpr0.gz (97/52/fopen): adding to final database dump
+0016.280 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wfsnipcache.table.gz (98/52/fopen): adding to final database dump
+0016.281 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wfstatus.table.tmpr11.gz (99/52/fopen): adding to final database dump
+0016.281 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wfstatus.table.gz (100/52/fopen): adding to final database dump
+0016.282 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wftrafficrates.table.tmpr1.gz (101/52/fopen): adding to final database dump
+0016.282 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wftrafficrates.table.gz (102/52/fopen): adding to final database dump
+0016.282 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wpforms_tasks_meta.table.tmpr6.gz (103/52/fopen): adding to final database dump
+0016.283 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db-table-wp_wpforms_tasks_meta.table.gz (104/52/fopen): adding to final database dump
+0016.285 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db.gz: finished writing out complete database file (530.3 KB)
+0016.294 (0) Total database tables backed up: 52 (backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db.gz, size: 543113, sha1: 84f13943176cc15d00813de042d5e5ab7b05886a, sha256: 6088fc0b619eb9f3d35ab8db3714eae21f5c0433bedd3ad2c5d79fdf365e661d)
+0016.296 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0016.297 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0016.297 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0016.298 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-others.zip: others: This file has not yet been successfully uploaded: will queue
+0016.298 (0) backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db.gz: db: This file has not yet been successfully uploaded: will queue
+0016.299 (0) Saving backup history. Total backup size: 74.4 MB
+0016.300 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0016.301 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0016.301 (0) No remote despatch: user chose no remote backup service
+0016.301 (0) Recording as successfully uploaded: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip
+0016.302 (0) Deleting zip manifest (backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-plugins.zip.list.tmp)
+0016.303 (0) Recording as successfully uploaded: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-themes.zip
+0016.304 (0) Deleting zip manifest (backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-themes.zip.list.tmp)
+0016.304 (0) Recording as successfully uploaded: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-uploads.zip
+0016.305 (0) Deleting zip manifest (backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-uploads.zip.list.tmp)
+0016.305 (0) Recording as successfully uploaded: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-others.zip
+0016.306 (0) Deleting zip manifest (backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-others.zip.list.tmp)
+0016.306 (0) Recording as successfully uploaded: backup_2021-12-24-0436_Citrus_Staffing_84ee26f4070d-db.gz
+0016.307 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=7
+0016.308 (0) Number of backup sets in history: 2; groups (db): 1
+0016.308 (0) Examining (for databases) backup set with group_id=0, nonce=84ee26f4070d, datestamp=1640317010 (Dec 24 2021 03:36:50)
+0016.308 (0) This backup set is the backup set just made, so will not be deleted.
+0016.308 (0) Examining (for databases) backup set with group_id=0, nonce=e2ad5e562d5d, datestamp=1640270218 (Dec 23 2021 14:36:58)
+0016.308 (0) This backup set (1640270218) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0016.308 (0) Number of backup sets in history: 2; groups (files): 1
+0016.309 (0) Examining (for files) backup set with nonce=84ee26f4070d, datestamp=1640317010 (Dec 24 2021 03:36:50)
+0016.309 (0) This backup set is the backup set just made, so will not be deleted.
+0016.309 (0) This backup set is the backup set just made, so will not be deleted.
+0016.309 (0) This backup set is the backup set just made, so will not be deleted.
+0016.309 (0) This backup set is the backup set just made, so will not be deleted.
+0016.309 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0016.309 (0) Examining (for files) backup set with nonce=e2ad5e562d5d, datestamp=1640270218 (Dec 23 2021 14:36:58)
+0016.310 (0) This backup set (1640270218) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0016.310 (0) This backup set (1640270218) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0016.310 (0) This backup set (1640270218) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0016.310 (0) This backup set (1640270218) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0016.310 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0016.310 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0016.311 (0) Resume backup (84ee26f4070d, 0): finish run
+0016.312 (0) Decremented the semaphore (fd) by 1
+0016.312 (0) Semaphore (fd) unlocked
+0016.313 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0016.314 (0) No email will/can be sent - the user has not configured an email address.
+0016.314 (0) The backup apparently succeeded and is now complete

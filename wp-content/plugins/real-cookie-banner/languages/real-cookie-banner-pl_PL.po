@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#: inc/Assets.php:1
+msgid "Use on legal basis of"
+msgstr "Wykorzystanie na podstawie prawnej"
+
+#: inc/Assets.php:1
+msgid "Legitimate interest"
+msgstr "Uzasadniony interes"
+
+#: inc/Assets.php:1
+msgid "Compliance with a legal obligation"
+msgstr "Zgodność z obowiązkiem prawnym"
+
+#: inc/Assets.php:1
+msgid "Consent"
+msgstr "Zgoda"
+
+#: inc/Assets.php:1
+msgid "We have recognized that you are a crawler/bot. Only natural persons must consent to cookies and processing of personal data. Therefore, the link has no function for you."
+msgstr "Rozpoznaliśmy, że jesteś crawlerem/botem. Tylko osoby fizyczne muszą wyrazić zgodę na pliki cookie i przetwarzanie danych osobowych. Dlatego ten link nie ma dla Ciebie żadnej funkcji."
+
+#: inc/Assets.php:1
+msgid "Technical cookie definition"
+msgstr "Definicja techniczna pliku cookie"
+
+#: inc/Assets.php:1
+msgid "Uses cookies"
+msgstr "Wykorzystuje pliki cookie"
+
+#: inc/Assets.php:1
+msgid "Cookie refresh"
+msgstr "Odświeżanie ciasteczek"
+
+#: inc/Assets.php:1
+msgid "Uses cookie-like information (LocalStorage, SessionStorage, IndexDB, etc.)"
+msgstr "Wykorzystuje informacje podobne do plików cookie (LocalStorage, SessionStorage, IndexDB itp.)"
+
+#: inc/Assets.php:1
+msgid "Host"
+msgstr "Host"
+
+#: inc/Assets.php:1
+msgid "Duration"
+msgstr "Czas trwania pomocy"
+
+#: inc/Assets.php:1
+msgid "second(s)"
+msgstr "sekunda(y)"
+
+#: inc/Assets.php:1
+msgid "minute(s)"
+msgstr "minuta(y)"
+
+#: inc/Assets.php:1
+msgid "hour(s)"
+msgstr "godzina(y)"
+
+#: inc/Assets.php:1
+msgid "day(s)"
+msgstr "dzień(y)"
+
+#: inc/Assets.php:1
+msgid "month(s)"
+msgstr "miesiąc(y)"
+
+#: inc/Assets.php:1
+msgid "year(s)"
+msgstr "rok(y)"
+
+#: inc/Assets.php:1
+msgid "Type"
+msgstr "Typu"
+
+#: inc/Assets.php:1
+msgid "Purpose"
+msgstr "Przeznaczenie"
+
+#: inc/Assets.php:1
+msgid "History of your privacy settings"
+msgstr "Historia ustawień prywatności"
+
+#: inc/Assets.php:1
+msgid "Show consent from"
+msgstr "Pokaż zgodę od"
+
+#: inc/Assets.php:1
+msgid "Not yet consented to"
+msgstr "Jeszcze nie wyrażono zgody"
+
+#: inc/Assets.php:1
+msgid "Close"
+msgstr "Zamknij"
+
+#: inc/Assets.php:1
+msgid "Close without saving"
+msgstr "Zamknij bez zapisywania"
+
+#: inc/Assets.php:1
+msgid "Provider"
+msgstr "Dostawca"
+
+#: inc/Assets.php:1
+msgid "Privacy Policy"
+msgstr "Polityka prywatności"
+
+#: inc/Assets.php:1
+msgid "and %d more"
+msgstr "i %d więcej"
+
+#: inc/Assets.php:1
+msgid "US data processing"
+msgstr "Przetwarzanie danych w USA"
+
+#: inc/Assets.php:1
+msgid "Yes"
+msgstr "Tak"
+
+#: inc/Assets.php:1
+msgid "No"
+msgstr "Nie"
+
+#: inc/Assets.php:1
+msgid "Unknown"
+msgstr "Nieznany"
+
+#: inc/Assets.php:1
+msgid "None"
+msgstr "Brak"
+
+#: inc/Assets.php:1
+msgid "No license activated - not for production use!"
+msgstr "Brak aktywnej licencji - nie do użytku produkcyjnego!"
+
+#: inc/Assets.php:1
+msgid "Product license not for production use!"
+msgstr "Licencja produktu nie do użytku produkcyjnego!"

@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#: inc/Assets.php:1
+msgid "Use on legal basis of"
+msgstr "Utilizarea pe bază legală a"
+
+#: inc/Assets.php:1
+msgid "Legitimate interest"
+msgstr "Interes legitim"
+
+#: inc/Assets.php:1
+msgid "Compliance with a legal obligation"
+msgstr "Respectarea unei obligații legale"
+
+#: inc/Assets.php:1
+msgid "Consent"
+msgstr "Consimțământ"
+
+#: inc/Assets.php:1
+msgid "We have recognized that you are a crawler/bot. Only natural persons must consent to cookies and processing of personal data. Therefore, the link has no function for you."
+msgstr "Am recunoscut că sunteți un crawler/bot. Numai persoanele fizice trebuie să își dea acordul pentru cookie-uri și prelucrarea datelor cu caracter personal. Prin urmare, linkul nu are nicio funcție pentru dvs."
+
+#: inc/Assets.php:1
+msgid "Technical cookie definition"
+msgstr "Definiția tehnică a cookie-urilor"
+
+#: inc/Assets.php:1
+msgid "Uses cookies"
+msgstr "Utilizează cookie-uri"
+
+#: inc/Assets.php:1
+msgid "Cookie refresh"
+msgstr "Actualizarea cookie-urilor"
+
+#: inc/Assets.php:1
+msgid "Uses cookie-like information (LocalStorage, SessionStorage, IndexDB, etc.)"
+msgstr "Utilizează informații de tip cookie (LocalStorage, SessionStorage, IndexDB, etc.)"
+
+#: inc/Assets.php:1
+msgid "Host"
+msgstr "Gazda"
+
+#: inc/Assets.php:1
+msgid "Duration"
+msgstr "Durata"
+
+#: inc/Assets.php:1
+msgid "second(s)"
+msgstr "secundă(e)"
+
+#: inc/Assets.php:1
+msgid "minute(s)"
+msgstr "minut(e)"
+
+#: inc/Assets.php:1
+msgid "hour(s)"
+msgstr "oră(e)"
+
+#: inc/Assets.php:1
+msgid "day(s)"
+msgstr "zi (zile)"
+
+#: inc/Assets.php:1
+msgid "month(s)"
+msgstr "lună(e)"
+
+#: inc/Assets.php:1
+msgid "year(s)"
+msgstr "anul (anii)"
+
+#: inc/Assets.php:1
+msgid "Type"
+msgstr "Tip"
+
+#: inc/Assets.php:1
+msgid "Purpose"
+msgstr "Scop"
+
+#: inc/Assets.php:1
+msgid "History of your privacy settings"
+msgstr "Istoric al setărilor dvs. de confidențialitate"
+
+#: inc/Assets.php:1
+msgid "Show consent from"
+msgstr "Arată consimțământul de la"
+
+#: inc/Assets.php:1
+msgid "Not yet consented to"
+msgstr "Nu a fost încă consimțit"
+
+#: inc/Assets.php:1
+msgid "Close"
+msgstr "Închideți"
+
+#: inc/Assets.php:1
+msgid "Close without saving"
+msgstr "Închideți fără a salva"
+
+#: inc/Assets.php:1
+msgid "Provider"
+msgstr "Furnizor"
+
+#: inc/Assets.php:1
+msgid "Privacy Policy"
+msgstr "Politica de confidențialitate"
+
+#: inc/Assets.php:1
+msgid "and %d more"
+msgstr "și %d mai mult"
+
+#: inc/Assets.php:1
+msgid "US data processing"
+msgstr "Prelucrarea datelor în SUA"
+
+#: inc/Assets.php:1
+msgid "Yes"
+msgstr "Da"
+
+#: inc/Assets.php:1
+msgid "No"
+msgstr "Nu"
+
+#: inc/Assets.php:1
+msgid "Unknown"
+msgstr "Necunoscut"
+
+#: inc/Assets.php:1
+msgid "None"
+msgstr "Nici unul"
+
+#: inc/Assets.php:1
+msgid "No license activated - not for production use!"
+msgstr "Nici o licență activată - nu pentru utilizare în producție!"
+
+#: inc/Assets.php:1
+msgid "Product license not for production use!"
+msgstr "Licența produsului nu este destinată utilizării în producție!"

@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#: inc/Assets.php:1
+msgid "Use on legal basis of"
+msgstr "Yasal olarak"
+
+#: inc/Assets.php:1
+msgid "Legitimate interest"
+msgstr "Meşru menfaat"
+
+#: inc/Assets.php:1
+msgid "Compliance with a legal obligation"
+msgstr "Yasal bir yükümlülüğe uygunluk"
+
+#: inc/Assets.php:1
+msgid "Consent"
+msgstr "Kabul"
+
+#: inc/Assets.php:1
+msgid "We have recognized that you are a crawler/bot. Only natural persons must consent to cookies and processing of personal data. Therefore, the link has no function for you."
+msgstr "Bir tarayıcı / bot olduğunuzu fark ettik. Çerezlere ve kişisel verilerin işlenmesine yalnızca gerçek kişiler izin vermelidir. Bu nedenle, bağlantının sizin için bir işlevi yoktur."
+
+#: inc/Assets.php:1
+msgid "Technical cookie definition"
+msgstr "Teknik çerez tanımı"
+
+#: inc/Assets.php:1
+msgid "Uses cookies"
+msgstr "Tanımlama bilgilerini kullanır"
+
+#: inc/Assets.php:1
+msgid "Cookie refresh"
+msgstr "Çerez yenileme"
+
+#: inc/Assets.php:1
+msgid "Uses cookie-like information (LocalStorage, SessionStorage, IndexDB, etc.)"
+msgstr "Çerez benzeri bilgileri kullanır (LocalStorage, SessionStorage, IndexDB, vb.)"
+
+#: inc/Assets.php:1
+msgid "Host"
+msgstr "Ev sahibi"
+
+#: inc/Assets.php:1
+msgid "Duration"
+msgstr "Süre"
+
+#: inc/Assets.php:1
+msgid "second(s)"
+msgstr "saniye"
+
+#: inc/Assets.php:1
+msgid "minute(s)"
+msgstr "dakika"
+
+#: inc/Assets.php:1
+msgid "hour(s)"
+msgstr "saat"
+
+#: inc/Assets.php:1
+msgid "day(s)"
+msgstr "günler"
+
+#: inc/Assets.php:1
+msgid "month(s)"
+msgstr "aylar"
+
+#: inc/Assets.php:1
+msgid "year(s)"
+msgstr "yıllar"
+
+#: inc/Assets.php:1
+msgid "Type"
+msgstr "Türü"
+
+#: inc/Assets.php:1
+msgid "Purpose"
+msgstr "Amaç"
+
+#: inc/Assets.php:1
+msgid "History of your privacy settings"
+msgstr "Gizlilik ayarlarınızın geçmişi"
+
+#: inc/Assets.php:1
+msgid "Show consent from"
+msgstr "İzin göste"
+
+#: inc/Assets.php:1
+msgid "Not yet consented to"
+msgstr "Henüz onaylanmadı"
+
+#: inc/Assets.php:1
+msgid "Close"
+msgstr "Kapat"
+
+#: inc/Assets.php:1
+msgid "Close without saving"
+msgstr "Kaydetmeden kapat"
+
+#: inc/Assets.php:1
+msgid "Provider"
+msgstr "Sağlayıcı"
+
+#: inc/Assets.php:1
+msgid "Privacy Policy"
+msgstr "Gizlilik Politikası"
+
+#: inc/Assets.php:1
+msgid "and %d more"
+msgstr "ve %d daha fazla"
+
+#: inc/Assets.php:1
+msgid "US data processing"
+msgstr "ABD veri işleme"
+
+#: inc/Assets.php:1
+msgid "Yes"
+msgstr "Evet"
+
+#: inc/Assets.php:1
+msgid "No"
+msgstr "Hayır"
+
+#: inc/Assets.php:1
+msgid "Unknown"
+msgstr "Bilinmeyen"
+
+#: inc/Assets.php:1
+msgid "None"
+msgstr "Hiçbiri"
+
+#: inc/Assets.php:1
+msgid "No license activated - not for production use!"
+msgstr "Hiçbir lisans etkinleştirilmedi - üretim kullanımı için değil!"
+
+#: inc/Assets.php:1
+msgid "Product license not for production use!"
+msgstr "Ürün lisansı üretim amaçlı değil!"

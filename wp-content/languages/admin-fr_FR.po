@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.8.x - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-12-17 14:28:10+0000\n"
+"PO-Revision-Date: 2021-12-25 12:20:46+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -4564,7 +4564,7 @@ msgstr "Bonjour ! Je suis un mécanicien qui aspire à devenir acteur, et voici
 #. translators: First page content.
 #: wp-admin/includes/upgrade.php:298
 msgid "This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:"
-msgstr "Ceci est une page d’exemple. C’est différent d’un article de blog parce qu’elle restera au même endroit et apparaîtra dans la navigation de votre site (dans la plupart des thèmes). La plupart des gens commencent par une page « À propos » qui les présente aux personnes visitant du site. Cela pourrait ressembler à quelque chose comme cela :"
+msgstr "Ceci est une page d’exemple. C’est différent d’un article de blog parce qu’elle restera au même endroit et apparaîtra dans la navigation de votre site (dans la plupart des thèmes). La plupart des gens commencent par une page « À propos » qui les présente aux personnes visitant le site. Cela pourrait ressembler à quelque chose comme cela :"
 
 #: wp-admin/includes/upgrade.php:271
 msgid ""

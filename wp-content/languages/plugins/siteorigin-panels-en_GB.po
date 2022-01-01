@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Page Builder by SiteOrigin - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-05-17 12:03:19+0000\n"
+"PO-Revision-Date: 2021-12-22 09:14:02+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,98 @@ msgstr ""
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: en_GB\n"
 "Project-Id-Version: Plugins - Page Builder by SiteOrigin - Stable (latest release)\n"
+
+#: inc/admin.php:1426
+msgid "SiteOrigin Preimum"
+msgstr "SiteOrigin Premium"
+
+#: inc/admin.php:1424
+msgid "Get fast email support for Page Builder with %link%."
+msgstr "Get fast email support for Page Builder with %link%."
+
+#: inc/admin.php:1414
+msgid "Get a %link% with SiteOrigin Premium."
+msgstr "Get a %link% with SiteOrigin Premium."
+
+#: inc/admin.php:1409
+msgid "Hide rows and widgets on specific devices with the %link%."
+msgstr "Hide rows and widgets on specific devices with the %link%."
+
+#: inc/admin.php:1404
+msgid "Show or hide rows and widgets between a selected date range with the %link%."
+msgstr "Show or hide rows and widgets between a selected date range with the %link%."
+
+#: inc/admin.php:1399
+msgid "Hide rows and widgets based for logged-in or logged-out users with the %link%."
+msgstr "Hide rows and widgets based for logged-in or logged-out users with the %link%."
+
+#: inc/admin.php:1394
+msgid "Add parallax background images to your slider type widgets with %link%."
+msgstr "Add parallax background images to your slider type widgets with %link%."
+
+#: inc/admin.php:1391 inc/admin.php:1396
+msgid "SiteOrigin Premium"
+msgstr "SiteOrigin Premium"
+
+#: inc/admin.php:1384
+msgid "Get the %link%. Create a widget once, use it everywhere. Update it and the changes reflect in all instances of the widget."
+msgstr "Get the %link%. Create a widget once, use it everywhere. Update it and the changes reflect in all instances of the widget."
+
+#: inc/admin.php:1379
+msgid "Link an entire Page Builder row, cell, or widget with the %link%."
+msgstr "Link an entire Page Builder row, cell, or widget with the %link%."
+
+#: inc/admin.php:1369
+msgid "Get the %link%. Add beautiful and customizable text overlays with animations to your images."
+msgstr "Get the %link%. Add beautiful and customisable text overlays with animations to your images."
+
+#: inc/admin.php:1364
+msgid "Get the %link%. Build custom post types with reusable Page Builder layouts."
+msgstr "Get the %link%. Build custom post types with reusable Page Builder layouts."
+
+#: inc/admin.php:1359
+msgid "Get the row, cell, and widget %link%."
+msgstr "Get the row, cell, and widget %link%."
+
+#: inc/styles.php:178
+msgid "Margins around the widget when on mobile devices."
+msgstr "Margins around the widget when on mobile devices."
+
+#: inc/styles.php:402 inc/styles.php:450
+msgid "Color of links inside this widget when hovered."
+msgstr "Colour of links inside this widget when hovered."
+
+#: inc/styles.php:332
+msgid "Space below the row on tablet devices. Default is %spx."
+msgstr "Space below the row on tablet devices. Default is %spx."
+
+#: inc/styles.php:166
+msgid "Padding when on tablet devices."
+msgstr "Padding when on tablet devices."
+
+#: inc/admin.php:170
+msgid "Support"
+msgstr "Support"
+
+#: inc/admin.php:169
+msgid "Settings"
+msgstr "Settings"
+
+#: inc/styles.php:129
+msgid "A CSS class name."
+msgstr "A CSS class name."
+
+#: inc/settings.php:494
+msgid "Allow margin below the last row."
+msgstr "Allow margin below the last row."
+
+#: inc/settings.php:410
+msgid "Add the widget class to Page Builder widgets. Disable if theme widget styles are negatively impacting widgets in Page Builder."
+msgstr "Add the widget class to Page Builder widgets. Disable if theme widget styles are negatively impacting widgets in Page Builder."
+
+#: inc/renderer.php:411
+msgid "Prevented SiteOrigin layout from repeated rendering."
+msgstr "Prevented SiteOrigin layout from repeated rendering."
 
 #: inc/settings.php:354
 msgid "Parallax Scale"
@@ -39,6 +131,10 @@ msgstr "Modern"
 msgid "Parallax Type"
 msgstr "Parallax Type"
 
+#: inc/settings.php:355
+msgid "How much the image is scaled. The higher the scale is set, the more visible the parallax effect will be. Increasing the scale will result in a loss of image quality."
+msgstr "How much the image is scaled. The higher the scale is set, the more visible the parallax effect will be. Increasing the scale will result in a loss of image quality."
+
 #: inc/settings.php:517
 msgid "Footer"
 msgstr "Footer"
@@ -47,6 +143,18 @@ msgstr "Footer"
 msgid "Header"
 msgstr "Header"
 
+#: inc/settings.php:515
+msgid "Automatic"
+msgstr "Automatic"
+
+#: inc/settings.php:488
+msgid "The default margin below rows on mobile."
+msgstr "The default margin below rows on mobile."
+
+#: inc/settings.php:335
+msgid "Disable row/widget background parallax when the browser is smaller than the mobile width."
+msgstr "Disable row/widget background parallax when the browser is smaller than the mobile width."
+
 #: inc/styles.php:137
 msgid "One declaration per line."
 msgstr "One declaration per line."
@@ -54,6 +162,10 @@ msgstr "One declaration per line."
 #: inc/styles.php:134
 msgid "CSS Declarations"
 msgstr "CSS Declarations"
+
+#: inc/styles.php:145
+msgid "CSS declarations applied when in mobile view."
+msgstr "CSS declarations applied when in mobile view."
 
 #: inc/widgets/post-loop.php:395
 msgid "Help"
@@ -533,6 +645,68 @@ msgstr "Revert to Editor"
 #: inc/admin.php:1628
 msgid "Block Editor"
 msgstr "Block Editor"
+
+#: inc/settings.php:467
+msgid "Device width, in pixels, to collapse into a tablet view."
+msgstr "Device width, in pixels, to collapse into a tablet view."
+
+#: inc/settings.php:428
+msgid "Open a widget form as soon as it's added to a page."
+msgstr "Open a widget form as soon as it's added to a page."
+
+#: tpl/js-templates.php:24
+msgid "Layouts"
+msgstr "Layouts"
+
+#: settings/tpl/welcome.php:8
+msgid "Page Builder works with standard WordPress widgets, so you’ll always find the widget you need. We've also created the %s to give you a wide range of additional functionality. All the widgets are built on our powerful framework, giving you advanced forms, unlimited colours and 1500+ icons."
+msgstr "Page Builder works with standard WordPress widgets, so you’ll always find the widget you need. We've also created the %s to give you a wide range of additional functionality. All the widgets are built on our powerful framework, giving you advanced forms, unlimited colours and 1500+ icons."
+
+#: settings/tpl/welcome.php:1
+msgid "Welcome To SiteOrigin Page Builder"
+msgstr "Welcome To SiteOrigin Page Builder"
+
+#: settings/tpl/settings.php:25
+msgid "Welcome"
+msgstr "Welcome"
+
+#: inc/settings.php:342
+msgid "How many pixels of scrolling results in a single pixel of parallax motion. 0 means automatic. Lower values give more noticeable effect."
+msgstr "How many pixels of scrolling results in a single pixel of parallax motion. 0 means automatic. Lower values give more noticeable effect."
+
+#: inc/settings.php:286
+msgid "The post types on which to use Page Builder."
+msgstr "The post types on which to use Page Builder."
+
+#. translators: accessibility text
+#: inc/admin-dashboard.php:88
+msgid "(email SiteOrigin support)"
+msgstr "(email SiteOrigin support)"
+
+#. translators: accessibility text
+#. translators: accessibility text
+#. translators: accessibility text
+#: inc/admin-dashboard.php:78 inc/admin-dashboard.php:97
+#: inc/admin-dashboard.php:109
+msgid "(opens in a new window)"
+msgstr "(opens in a new window)"
+
+#: inc/admin-dashboard.php:76
+msgid "Blog"
+msgstr "Blog"
+
+#: siteorigin-panels.php:479
+msgctxt "Word count type. Do not translate!"
+msgid "words"
+msgstr "words"
+
+#: inc/admin.php:173 tpl/js-templates.php:44
+msgid "Addons"
+msgstr "Add-ons"
+
+#: compat/layout-block.php:95
+msgid "You need to add a widget, row, or prebuilt layout before you'll see anything here. :)"
+msgstr "You need to add a widget, row, or prebuilt layout before you'll see anything here. :)"
 
 #: widgets/widgets.php:781
 msgid "Attachment Page"
@@ -1609,6 +1783,14 @@ msgstr "Parallax"
 msgid "Border color of the %s."
 msgstr "Border colour of the %s."
 
+#: inc/settings.php:474
+msgid "Device width, in pixels, to collapse into a mobile view."
+msgstr "Device width, in pixels, to collapse into a mobile view."
+
+#: inc/settings.php:443
+msgid "Collapse widgets, rows, and columns on mobile devices."
+msgstr "Collapse widgets, rows, and columns on mobile devices."
+
 #: inc/styles.php:196
 msgid "Background Color"
 msgstr "Background Colour"
@@ -1672,3 +1854,11 @@ msgstr "Cell Class"
 #: inc/styles.php:199
 msgid "Background color of the %s."
 msgstr "Background colour of the %s."
+
+#: inc/styles.php:207
+msgid "Background image of the %s."
+msgstr "Background image of the %s."
+
+#: inc/styles.php:155
+msgid "Padding around the entire %s."
+msgstr "Padding around the entire %s."

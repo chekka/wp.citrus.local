@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#: inc/Assets.php:1
+msgid "Use on legal basis of"
+msgstr "Käyttö oikeudellisella perusteella"
+
+#: inc/Assets.php:1
+msgid "Legitimate interest"
+msgstr "Oikeutettu etu"
+
+#: inc/Assets.php:1
+msgid "Compliance with a legal obligation"
+msgstr "Lakisääteisen velvoitteen noudattaminen"
+
+#: inc/Assets.php:1
+msgid "Consent"
+msgstr "Suostumus"
+
+#: inc/Assets.php:1
+msgid "We have recognized that you are a crawler/bot. Only natural persons must consent to cookies and processing of personal data. Therefore, the link has no function for you."
+msgstr "Olemme huomanneet, että olet indeksoiva robotti. Vain luonnollisten henkilöiden on annettava suostumuksensa evästeisiin ja henkilötietojen käsittelyyn. Siksi linkillä ei ole sinulle mitään merkitystä."
+
+#: inc/Assets.php:1
+msgid "Technical cookie definition"
+msgstr "Teknisen evästeen määritelmä"
+
+#: inc/Assets.php:1
+msgid "Uses cookies"
+msgstr "Käyttää evästeitä"
+
+#: inc/Assets.php:1
+msgid "Cookie refresh"
+msgstr "Evästeen päivitys"
+
+#: inc/Assets.php:1
+msgid "Uses cookie-like information (LocalStorage, SessionStorage, IndexDB, etc.)"
+msgstr "Käyttää evästeiden kaltaisia tietoja (LocalStorage, SessionStorage, IndexDB jne.)."
+
+#: inc/Assets.php:1
+msgid "Host"
+msgstr "Isäntä"
+
+#: inc/Assets.php:1
+msgid "Duration"
+msgstr "Kesto"
+
+#: inc/Assets.php:1
+msgid "second(s)"
+msgstr "sekunti(t)"
+
+#: inc/Assets.php:1
+msgid "minute(s)"
+msgstr "minuutti(t)"
+
+#: inc/Assets.php:1
+msgid "hour(s)"
+msgstr "tunti(t)"
+
+#: inc/Assets.php:1
+msgid "day(s)"
+msgstr "päivä(t)"
+
+#: inc/Assets.php:1
+msgid "month(s)"
+msgstr "kuukausi(t)"
+
+#: inc/Assets.php:1
+msgid "year(s)"
+msgstr "vuosi(t)"
+
+#: inc/Assets.php:1
+msgid "Type"
+msgstr "Tyyppi"
+
+#: inc/Assets.php:1
+msgid "Purpose"
+msgstr "Käyttötarkoitus"
+
+#: inc/Assets.php:1
+msgid "History of your privacy settings"
+msgstr "Tietosuoja-asetusten historia"
+
+#: inc/Assets.php:1
+msgid "Show consent from"
+msgstr "Näytä suostumus"
+
+#: inc/Assets.php:1
+msgid "Not yet consented to"
+msgstr "Ei vielä hyväksytty"
+
+#: inc/Assets.php:1
+msgid "Close"
+msgstr "Sulje"
+
+#: inc/Assets.php:1
+msgid "Close without saving"
+msgstr "Sulje tallentamatta"
+
+#: inc/Assets.php:1
+msgid "Provider"
+msgstr "Palveluntarjoaja"
+
+#: inc/Assets.php:1
+msgid "Privacy Policy"
+msgstr "Tietosuojakäytäntö"
+
+#: inc/Assets.php:1
+msgid "and %d more"
+msgstr "ja %d muutos"
+
+#: inc/Assets.php:1
+msgid "US data processing"
+msgstr "Yhdysvaltojen tietojenkäsittely"
+
+#: inc/Assets.php:1
+msgid "Yes"
+msgstr "Kyllä"
+
+#: inc/Assets.php:1
+msgid "No"
+msgstr "Ei"
+
+#: inc/Assets.php:1
+msgid "Unknown"
+msgstr "Tuntematon"
+
+#: inc/Assets.php:1
+msgid "None"
+msgstr "Ei ole"
+
+#: inc/Assets.php:1
+msgid "No license activated - not for production use!"
+msgstr "Ei lisenssiä aktivoitu - ei tuotantokäyttöön!"
+
+#: inc/Assets.php:1
+msgid "Product license not for production use!"
+msgstr "Tuotteen lisenssi ei ole tarkoitettu tuotantokäyttöön!"

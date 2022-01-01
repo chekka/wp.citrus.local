@@ -3,8 +3,8 @@ Tags: widget, button, slider, hero, google maps, image, carousel, features, icon
 Requires at least: 4.2
 Tested up to: 5.8
 Requires PHP: 5.6.20
-Stable tag: 1.27.0
-Build time: 2021-12-17T22:50:43+02:00
+Stable tag: 1.28.0
+Build time: 2021-12-26T17:41:53+02:00
 License: GPLv3 or later
 Contributors: gpriday, braam-genis, alexgso
 Donate link: https://siteorigin.com/downloads/premium/
@@ -99,6 +99,11 @@ SiteOrigin Premium includes access to our professional email support service, pe
 The Widgets Bundle global interface is available at Plugins > SiteOrigin Widgets. Widgets can be enabled or disabled as needed. If a widget offers global settings, you can access those via the Settings button next to each applicable widget.
 
 == Changelog ==
+
+= 1.28.0 - 26 December 2021 =
+* Accordion: Set closed panels to hidden prior to loading.
+* Anything Carousel: Added a new Animation setting. Choose between Ease or Linear.
+* Features: Set Feature admin label to Icon title or Title text if available.
 
 = 1.27.0 - 17 December 2021 =
 * Price Table: Added new Header, Featured and Feature text color settings.

@@ -2,8 +2,8 @@
 Tags: css, visual css, css editor, design, customize
 Requires at least: 3.9
 Tested up to: 5.8
-Stable tag: 1.5.0
-Build time: 2021-12-16T17:41:49+02:00
+Stable tag: 1.5.1
+Build time: 2021-12-30T13:27:12+02:00
 License: GPLv2 or later
 Contributors: gpriday, alexgso
 Donate link: https://siteorigin.com/downloads/premium/
@@ -70,6 +70,9 @@ Free support is available on the [SiteOrigin support forums](https://siteorigin.
 SiteOrigin Premium includes access to our professional email support service, perfect for those times when you need fast and effective technical support. We're standing by to assist you in any way we can.
 
 == Changelog ==
+
+= 1.5.1 - 30 December 2021 =
+* Basic Editor Theme Setting: Updated field to show selected option.
 
 = 1.5.0 - 16 December 2021 =
 * Basic Editor: Added a dark theme option.
