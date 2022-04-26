@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Enable Media Replace - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-13 16:32:22+0000\n"
+"PO-Revision-Date: 2022-01-11 15:31:49+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,7 +17,7 @@ msgstr "Consigue la versión Pro"
 
 #: views/upsell.php:128
 msgid "Envira Gallery activated!"
-msgstr "¡Galería de Envira activada!"
+msgstr "¡Envira Gallery activado!"
 
 #: views/upsell.php:126
 msgid "Activate"
@@ -33,11 +33,11 @@ msgstr "Crea bonitas y rápidas galerías de fotos y vídeos para tu sitio en mi
 
 #: views/upsell.php:104
 msgid "GET AN ASSESSMENT FOR %s YOUR WEBSITE %s AND %s %s FIND OUT HOW TO MAKE IT FASTER %s"
-msgstr "CONSIGUE UNA VALORACIÓN DE %s TU WEB %s Y %s %s DESCUBRE CÓMO HACERLO MÁS RÁPIDO %s"
+msgstr "OBTÉN UNA EVALUACIÓN DE %s TU WEB %s Y %s %s DESCUBRE CÓMO HACERLA MÁS RÁPIDO %s"
 
 #: views/upsell.php:94
 msgid "Shortpixel Adaptive Images activated!"
-msgstr "¡Imágenes adaptables de Shortpixel activadas!"
+msgstr "¡ShortPixel Adaptive Images activado!"
 
 #: views/upsell.php:80
 msgid "In Minutes"
@@ -49,11 +49,11 @@ msgstr "Empieza a servir imágenes %s optimizadas, %s de nueva generación %s de
 
 #: views/upsell.php:75
 msgid "ShortPixel Adaptive Images"
-msgstr "Imágenes adaptables de ShortPixel"
+msgstr "ShortPixel Adaptive Images"
 
 #: views/upsell.php:60
 msgid "Shortpixel activated!"
-msgstr "¡Shortpixel activado!"
+msgstr "¡ShortPixel activado!"
 
 #: views/upsell.php:57 views/upsell.php:91
 msgid "ACTIVATE"
@@ -69,7 +69,7 @@ msgstr "Optimiza todas las imágenes %s automáticamente"
 
 #: views/upsell.php:44
 msgid "Is your website slow?"
-msgstr "¿Es lenta tu web?"
+msgstr "¿Va lenta tu web?"
 
 #: views/upsell.php:42
 msgid "ShortPixel Image Optimizer"

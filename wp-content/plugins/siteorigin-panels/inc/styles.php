@@ -344,10 +344,10 @@ class SiteOrigin_Panels_Styles {
 		);
 		
 		$fields['mobile_cell_margin'] = array(
-			'name'        => __( 'Mobile Cell Margins', 'siteorigin-panels' ),
+			'name'        => __( 'Mobile Cell Bottom Margin', 'siteorigin-panels' ),
 			'type'        => 'measurement',
 			'group'       => 'mobile_layout',
-			'description' => sprintf( __( 'Vertical space between cells in a collapsed mobile row. Default is %spx.', 'siteorigin-panels' ), siteorigin_panels_setting( 'margin-bottom' ) ),
+			'description' => sprintf( __( 'Vertical space between cells in a collapsed mobile row. Default is %spx.', 'siteorigin-panels' ), ! empty( siteorigin_panels_setting( 'mobile-cell-margin' ) ) ? siteorigin_panels_setting( 'mobile-cell-margin' ) : siteorigin_panels_setting( 'margin-bottom' ) ),
 			'priority'    => 5,
 		);
 		
@@ -682,6 +682,14 @@ class SiteOrigin_Panels_Styles {
 	static function general_style_tablet_css( $css, $style ){
 		if( ! empty( $style['tablet_padding'] ) ) {
 			$css['padding'] = $style[ 'tablet_padding' ];
+		}
+
+		if (
+			! empty( $style['background_display'] ) &&
+			 $style['background_display'] == 'fixed'  &&
+			 ! ( empty( $style['background_image_attachment'] ) && empty( $style['background_image_attachment_fallback'] ) )
+		) {
+			$css[ 'background-attachment' ] = 'scroll';
 		}
 
 		return $css;

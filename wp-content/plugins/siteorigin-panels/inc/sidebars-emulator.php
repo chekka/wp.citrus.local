@@ -50,7 +50,9 @@ class SiteOrigin_Panels_Sidebars_Emulator {
 						if ( $instance_class == $widget_class && ! empty( $sidebar_id ) ) {
 							//The option value uses only the widget id number as keys
 							preg_match( '/-([0-9]+$)/', $sidebar_id, $num_match );
-							$args[0][ $num_match[1] ] = $widget_instance;
+							if ( ! empty( $num_match ) ) {
+								$args[0][ $num_match[1] ] = $widget_instance;
+							}
 						}
 					}
 				}
@@ -71,9 +73,10 @@ class SiteOrigin_Panels_Sidebars_Emulator {
 		if ( ! empty( $current_url['path'] ) ) {
 
 			// Check if WPML is running.
-			if ( defined( 'ICL_LANGUAGE_CODE' ) ) {
+			$wpml_language = apply_filters( 'wpml_current_language', NULL );
+			if ( ! empty( $wpml_language ) ) {
 				// Remove the current language code from path to avoid 404.
-				$current_url['path'] = ltrim( $current_url['path'], '/' . ICL_LANGUAGE_CODE . '/' );
+				$current_url['path'] = preg_replace( "/^\/$wpml_language\//", '/', $current_url['path'], 1 );
 			}
 
 			$page = get_page_by_path( $current_url['path'], OBJECT, siteorigin_panels_setting( 'post-types' ) );

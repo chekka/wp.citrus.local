@@ -1,0 +1,84 @@
+{
+    "name": "@devowl-wp/headless-content-blocker",
+    "version": "0.6.0",
+    "description": "Block HTML content by URLs and selector syntax",
+    "author": "DevOwl",
+    "homepage": "https://devowl.io",
+    "license": "GPL-3.0-or-later",
+    "private": true,
+    "engines": {
+        "node": ">=14.15.0",
+        "yarn": ">=1.22.5"
+    },
+    "sideEffects": [
+        "**/*.{css,scss,less}",
+        "./src/public/ts/*.tsx"
+    ],
+    "main": "lib/index.tsx",
+    "files": [
+        "dist",
+        "dev"
+    ],
+    "scripts": {
+        "bootstrap": "composer install --prefer-dist",
+        "lint:eslint": "yarn grunt @devowl-wp/eslint-config/eslint",
+        "lint:phpcs": "yarn grunt @devowl-wp/phpcs-config/run",
+        "test": "yarn grunt @devowl-wp/grunt-workspaces/run-yarn-children:test",
+        "test:phpunit": "yarn grunt @devowl-wp/phpunit-config/run",
+        "test:phpunit:coverage": "yarn grunt @devowl-wp/phpunit-config/coverage",
+        "root:run": "cd ../.. && yarn --silent",
+        "grunt": "TS_NODE_TRANSPILE_ONLY=true grunt --gruntfile scripts/Gruntfile.ts --base .",
+        "phpunit": "./vendor/bin/phpunit --prepend test/phpunit.xdebug.php --config test/phpunit.xml"
+    },
+    "phpunit-coverage-threshold": 80,
+    "license-check": {
+        "spdx": [
+            "MIT",
+            "ISC",
+            "BSD-2-Clause",
+            "BSD-3-Clause",
+            "Apache-2.0",
+            "Artistic-2.0",
+            "WTFPL",
+            "CC-0",
+            "CC0-1.0",
+            "MPL-2.0",
+            "ZLib",
+            "Unlicense",
+            "GPL-2.0",
+            "GPL-2.0-or-later",
+            "GPL-3",
+            "GPL-3.0-or-later",
+            "LGPL-3.0-or-later"
+        ],
+        "packages": [
+            "ignore-packages-here@1.0.0"
+        ]
+    },
+    "eslintConfig": {
+        "extends": [
+            "./node_modules/@devowl-wp/eslint-config/src/.eslintrc"
+        ]
+    },
+    "eslintIgnore": [
+        "dist",
+        "dev",
+        "docs",
+        "coverage",
+        "node_modules",
+        "vendor",
+        ".yarn-integrity",
+        ".yarn"
+    ],
+    "devDependencies": {
+        "@devowl-wp/composer-licenses": "^0.1.4",
+        "@devowl-wp/continuous-integration": "^0.2.1",
+        "@devowl-wp/eslint-config": "^0.1.4",
+        "@devowl-wp/phpcs-config": "^0.1.1",
+        "@devowl-wp/phpunit-config": "^0.1.1",
+        "@devowl-wp/yarn-licenses": "^0.1.4"
+    },
+    "peerDependencies": {
+        "@devowl-wp/grunt-workspaces": "^0.1.0"
+    }
+}

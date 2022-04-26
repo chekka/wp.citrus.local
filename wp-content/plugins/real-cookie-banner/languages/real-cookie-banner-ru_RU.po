@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#: inc/Assets.php:1
+msgid "Use on legal basis of"
+msgstr "Использование на законном основании"
+
+#: inc/Assets.php:1
+msgid "Legitimate interest"
+msgstr "Законный интерес"
+
+#: inc/Assets.php:1
+msgid "Compliance with a legal obligation"
+msgstr "Соблюдение правовых обязательств"
+
+#: inc/Assets.php:1
+msgid "Consent"
+msgstr "Согласие"
+
+#: inc/Assets.php:1
+msgid "We have recognized that you are a crawler/bot. Only natural persons must consent to cookies and processing of personal data. Therefore, the link has no function for you."
+msgstr "Мы распознали, что вы являетесь краулером/ботом. Только физические лица должны давать согласие на использование файлов cookie и обработку персональных данных. Поэтому данная ссылка не имеет для вас никакой функции."
+
+#: inc/Assets.php:1
+msgid "Technical cookie definition"
+msgstr "Техническое определение cookie"
+
+#: inc/Assets.php:1
+msgid "Uses cookies"
+msgstr "Использует файлы cookie"
+
+#: inc/Assets.php:1
+msgid "Cookie refresh"
+msgstr "Обновление файлов cookie"
+
+#: inc/Assets.php:1
+msgid "Uses cookie-like information (LocalStorage, SessionStorage, IndexDB, etc.)"
+msgstr "Использует информацию типа cookie (LocalStorage, SessionStorage, IndexDB и т.д.)."
+
+#: inc/Assets.php:1
+msgid "Host"
+msgstr "Хозяин"
+
+#: inc/Assets.php:1
+msgid "Duration"
+msgstr "Продолжительность"
+
+#: inc/Assets.php:1
+msgid "second(s)"
+msgstr "секунда(ы)"
+
+#: inc/Assets.php:1
+msgid "minute(s)"
+msgstr "минута(ы)"
+
+#: inc/Assets.php:1
+msgid "hour(s)"
+msgstr "час(ы)"
+
+#: inc/Assets.php:1
+msgid "day(s)"
+msgstr "день(ы)"
+
+#: inc/Assets.php:1
+msgid "month(s)"
+msgstr "месяц(ы)"
+
+#: inc/Assets.php:1
+msgid "year(s)"
+msgstr "год(ы)"
+
+#: inc/Assets.php:1
+msgid "Type"
+msgstr "Тип"
+
+#: inc/Assets.php:1
+msgid "Purpose"
+msgstr "Назначение"
+
+#: inc/Assets.php:1
+msgid "History of your privacy settings"
+msgstr "История ваших настроек конфиденциальности"
+
+#: inc/Assets.php:1
+msgid "Show consent from"
+msgstr "Показать согласие от"
+
+#: inc/Assets.php:1
+msgid "Not yet consented to"
+msgstr "Пока нет договоренности о"
+
+#: inc/Assets.php:1
+msgid "Close"
+msgstr "Закрыть"
+
+#: inc/Assets.php:1
+msgid "Close without saving"
+msgstr "Закрыть без сохранения"
+
+#: inc/Assets.php:1
+msgid "Provider"
+msgstr "Провайдер"
+
+#: inc/Assets.php:1
+msgid "Privacy Policy"
+msgstr "Политика конфиденциальности"
+
+#: inc/Assets.php:1
+msgid "and %d more"
+msgstr "и %d больше"
+
+#: inc/Assets.php:1
+msgid "US data processing"
+msgstr "Обработка данных в США"
+
+#: inc/Assets.php:1
+msgid "Yes"
+msgstr "Да"
+
+#: inc/Assets.php:1
+msgid "No"
+msgstr "Нет"
+
+#: inc/Assets.php:1
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#: inc/Assets.php:1
+msgid "None"
+msgstr "Нет"
+
+#: inc/Assets.php:1
+msgid "No license activated - not for production use!"
+msgstr "Лицензия не активирована - не для производственного использования!"
+
+#: inc/Assets.php:1
+msgid "Product license not for production use!"
+msgstr "Лицензия на продукт не для производственного использования!"

@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Language: bg_BG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#: inc/Assets.php:1
+msgid "Use on legal basis of"
+msgstr "Използване на правно основание на"
+
+#: inc/Assets.php:1
+msgid "Legitimate interest"
+msgstr "Легитимен интерес"
+
+#: inc/Assets.php:1
+msgid "Compliance with a legal obligation"
+msgstr "Спазване на правно задължение"
+
+#: inc/Assets.php:1
+msgid "Consent"
+msgstr "Съгласие"
+
+#: inc/Assets.php:1
+msgid "We have recognized that you are a crawler/bot. Only natural persons must consent to cookies and processing of personal data. Therefore, the link has no function for you."
+msgstr "Разбрахме, че сте пълзящ/бот. Само физически лица трябва да дадат съгласието си за бисквитките и обработката на лични данни. Поради това връзката няма функция за вас."
+
+#: inc/Assets.php:1
+msgid "Technical cookie definition"
+msgstr "Техническо определение за бисквитки"
+
+#: inc/Assets.php:1
+msgid "Uses cookies"
+msgstr "Използва бисквитки"
+
+#: inc/Assets.php:1
+msgid "Cookie refresh"
+msgstr "Обновяване на бисквитките"
+
+#: inc/Assets.php:1
+msgid "Uses cookie-like information (LocalStorage, SessionStorage, IndexDB, etc.)"
+msgstr "Използва информация, подобна на бисквитките (LocalStorage, SessionStorage, IndexDB и др.)"
+
+#: inc/Assets.php:1
+msgid "Host"
+msgstr "Домакин"
+
+#: inc/Assets.php:1
+msgid "Duration"
+msgstr "Продължителност"
+
+#: inc/Assets.php:1
+msgid "second(s)"
+msgstr "секунда(и)"
+
+#: inc/Assets.php:1
+msgid "minute(s)"
+msgstr "минута(и)"
+
+#: inc/Assets.php:1
+msgid "hour(s)"
+msgstr "час(и)"
+
+#: inc/Assets.php:1
+msgid "day(s)"
+msgstr "ден(и)"
+
+#: inc/Assets.php:1
+msgid "month(s)"
+msgstr "месец(и)"
+
+#: inc/Assets.php:1
+msgid "year(s)"
+msgstr "година(и)"
+
+#: inc/Assets.php:1
+msgid "Type"
+msgstr "Тип"
+
+#: inc/Assets.php:1
+msgid "Purpose"
+msgstr "Цел"
+
+#: inc/Assets.php:1
+msgid "History of your privacy settings"
+msgstr "История на вашите настройки за поверителност"
+
+#: inc/Assets.php:1
+msgid "Show consent from"
+msgstr "Показване на съгласие от"
+
+#: inc/Assets.php:1
+msgid "Not yet consented to"
+msgstr "Все още не е дадено съгласие"
+
+#: inc/Assets.php:1
+msgid "Close"
+msgstr "Затвори"
+
+#: inc/Assets.php:1
+msgid "Close without saving"
+msgstr "Затваряне без запазване"
+
+#: inc/Assets.php:1
+msgid "Provider"
+msgstr "Доставчик"
+
+#: inc/Assets.php:1
+msgid "Privacy Policy"
+msgstr "Политика за поверителност"
+
+#: inc/Assets.php:1
+msgid "and %d more"
+msgstr "и още %d"
+
+#: inc/Assets.php:1
+msgid "US data processing"
+msgstr "Обработка на данни в САЩ"
+
+#: inc/Assets.php:1
+msgid "Yes"
+msgstr "Да"
+
+#: inc/Assets.php:1
+msgid "No"
+msgstr "Не"
+
+#: inc/Assets.php:1
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#: inc/Assets.php:1
+msgid "None"
+msgstr "Няма"
+
+#: inc/Assets.php:1
+msgid "No license activated - not for production use!"
+msgstr "Няма активиран лиценз - не е за производствена употреба!"
+
+#: inc/Assets.php:1
+msgid "Product license not for production use!"
+msgstr "Лицензът на продукта не е за производствена употреба!"

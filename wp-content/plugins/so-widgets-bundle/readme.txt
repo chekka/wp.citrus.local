@@ -1,10 +1,10 @@
 === SiteOrigin Widgets Bundle ===
 Tags: widget, button, slider, hero, google maps, image, carousel, features, icons, price table, tinymce, social icons
 Requires at least: 4.2
-Tested up to: 5.8
+Tested up to: 5.9
 Requires PHP: 5.6.20
-Stable tag: 1.27.0
-Build time: 2021-12-17T22:50:43+02:00
+Stable tag: 1.33.0
+Build time: 2022-04-23T20:30:21+02:00
 License: GPLv3 or later
 Contributors: gpriday, braam-genis, alexgso
 Donate link: https://siteorigin.com/downloads/premium/
@@ -36,6 +36,7 @@ Our collection is growing; here's what we have so far:
 - **Image Grid:** Display a grid of images. Also useful for displaying client logos.
 - **Image Slider:** A simple, easy-to-use slider with support for image layering and HTML5 videos.
 - **Layout Slider:** Build layouts on slides using SiteOrigin Page Builder.
+- **Lottie Player:** Bring your pages to life with Lottie animations.
 - **Post Carousel:** Display your posts as a carousel.
 - **Price Table:** A simple yet powerful interface for building a price table.
 - **Simple Masonry:** A masonry layout for images. Images can link to your posts.
@@ -88,9 +89,13 @@ SiteOrigin Premium includes access to our professional email support service, pe
 
 == Screenshots ==
 
-1. Manage which widgets you want to be enabled or disabled.
-2. The Button Widget shows the clean, standard interface all the widgets use.
-3. An example of the Button Widget.
+1. Manage which widgets you want to be enabled or disabled at Plugins > SiteOrigin Widgets.
+2. SiteOrigin Widgets inserted in SiteOrigin Page Builder.
+3. Editing a Hero in SiteOrigin Page Builder.
+4. Inserting Tabs in the SiteOrigin Widget Block.
+5. SiteOrigin Widgets inserted in a SiteOrigin Layout Block.
+6. Inserting a Contact Form into a theme widget area at Appearance > Widgets.
+7. Inserting an Accordion into a theme widget area via the block-based widget screen.
 
 == Frequently Asked Questions ==
 
@@ -99,6 +104,72 @@ SiteOrigin Premium includes access to our professional email support service, pe
 The Widgets Bundle global interface is available at Plugins > SiteOrigin Widgets. Widgets can be enabled or disabled as needed. If a widget offers global settings, you can access those via the Settings button next to each applicable widget.
 
 == Changelog ==
+
+= 1.33.0 - 23 April 2022 =
+* New Widget! Introducing the SiteOrigin Lottie Player Widget.
+* Carousel Widgets: Resolved a dot navigation miscalculation when multiple carousels present.
+* Features: Improved mobile alignment.
+* Image and Image Grid: Added `wp_get_loading_attr_default` to prevent lazy loading above the fold.
+* Social Media Buttons: Improved hover behavior and styling.
+* Widget Block: Resolved a missing widget author notice.
+* Resolved PHP 8 notices.
+* Developer: Added `siteorigin_widgets_WIDGET_NAME_lazy_load` filter to manually exclude Image and Image Grid Widgets from lazy loading.
+* Developer: Added `siteorigin_widgets_contact_email_headers` to add additional headers to the Contact Form.
+* Developer: Added `siteorigin_widgets_tabs_scrollto_offset` to adjust the Tabs `Scroll To` offset.
+
+= 1.32.3 - 08 April 2022 =
+* Anything Carousel: Restored Autoplay functionality if Navigation Arrows are disabled.
+* Features: Improved CLS by inlining column alignment.
+* Hero and Layout Slider: Improved CLS by inlining height value on load.
+* Image Grid: Renamed `Display` settings group to `Settings`.
+* Updated Google Fonts list.
+
+= 1.32.2 - 23 March 2022 =
+* Anything Carousel: Restored arrow functionality. Resolved `Less_Exception_Compiler` notice.
+
+= 1.32.1 - 20 March 2022 =
+* Post Carousel: Resolved Autoplay not functioning when Navigation arrows disabled.
+
+= 1.32.0 - 14 March 2022 =
+* Post Carousel: Added a new `Autoplay Continuous Scroll` setting.
+* Post Carousel: Resolved a potential item tag notice.
+* Widgets Block: Resolve error when trying to use disabled third-party widget.
+* Widgets Block: Accounted for a potential third-party widgets filename conflict.
+* Widgets Block: Added non-SiteOrigin widget author names.
+* Widgets Block: Resolved a potential `Undefined index` notice if a widget isn't selected.
+
+= 1.31.0 - 05 March 2022 =
+* Post Carousel: Updates to allow for themes to be added.
+* Post Carousel: Fixed `Responsive > Tablet > Landscape` settings.
+* Post Carousel: Added support for the  Default Thumbnail: External URL field.
+* Developer: Added preset field support for state emitters when reopening widgets.
+* Developer: Added `siteorigin_widgets_accordion_scrollto_offset` filter.
+
+= 1.30.1 - 22 February 2022 =
+* Widgets Block: Prevented a potential notice within the WP admin.
+
+= 1.30.0 - 14 February 2022 =
+* Button and Contact Form: Migrated `onclick` to `on_click` to avoid a Worfence flag.
+* Call To Action: Remove `Use default background colors` setting.
+* Social Media Buttons: Added new settings: `Icon color hover` and `Background color hover`.
+
+= 1.29.2 - 04 February 2022 =
+* Widgets Block: Excluded the Contact Form from caching. Resolves error on first submission.
+
+= 1.29.1 - 27 January 2022 =
+* Updated `Tested up to` tag to `5.9`.
+* Widgets Block: Prevented a potential `Undefined Error` outside of the WP admin.
+
+= 1.29.0 - 15 January 2022 =
+* Accordion/Tabs: Removed the Border Radius setting dependency on Border Width.
+* Contact Form: Added a new `Enabled` setting to checkbox options.
+* Sliders: Disabled `loading` override when the AMP plugin is active.
+* Widget Block: Excluded Post Carousel from caching.
+
+= 1.28.0 - 26 December 2021 =
+* Accordion: Set closed panels to hidden prior to loading.
+* Anything Carousel: Added a new Animation setting. Choose between Ease or Linear.
+* Features: Set Feature admin label to Icon title or Title text if available.
 
 = 1.27.0 - 17 December 2021 =
 * Price Table: Added new Header, Featured and Feature text color settings.

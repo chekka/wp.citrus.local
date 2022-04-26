@@ -155,7 +155,6 @@ class SiteOrigin_Widget_Button_Widget extends SiteOrigin_Widget {
 						),
 					),
 
-
 					'button_color' => array(
 						'type' => 'color',
 						'label' => __( 'Button color', 'so-widgets-bundle' ),
@@ -196,7 +195,6 @@ class SiteOrigin_Widget_Button_Widget extends SiteOrigin_Widget {
 							'hover[hide]' => array( 'hide' ),
 						)
 					),
-
 
 					'font' => array(
 						'type' => 'font',
@@ -265,7 +263,7 @@ class SiteOrigin_Widget_Button_Widget extends SiteOrigin_Widget {
 						'description' => __( 'Adds a title attribute to the button link.', 'so-widgets-bundle' ),
 					),
 
-					'onclick' => array(
+					'on_click' => array(
 						'type' => 'text',
 						'label' => __( 'Onclick', 'so-widgets-bundle' ),
 						'description' => __( 'Run this Javascript when the button is clicked. Ideal for tracking.', 'so-widgets-bundle' ),
@@ -287,7 +285,7 @@ class SiteOrigin_Widget_Button_Widget extends SiteOrigin_Widget {
 	}
 
 	/**
-	 * Get the variables for the button widget.
+	 * Get the variables for the Button Widget.
 	 *
 	 * @param $instance
 	 * @param $args
@@ -349,7 +347,7 @@ class SiteOrigin_Widget_Button_Widget extends SiteOrigin_Widget {
 		return array(
 			'button_attributes' => $button_attributes,
 			'href' => ! empty( $instance['url'] ) ? $instance['url'] : '#',
-			'onclick' => ! empty( $attributes['onclick'] ) ? $attributes['onclick'] : '',
+			'on_click' => ! empty( $attributes['on_click'] ) ? $attributes['on_click'] : '',
 			'align' => $instance['design']['align'],
 			'icon_image_url' => $icon_image_url,
 			'icon' => $instance['button_icon']['icon_selected'],
@@ -431,7 +429,7 @@ class SiteOrigin_Widget_Button_Widget extends SiteOrigin_Widget {
 				'id'
 			),
 		);
-		
+
 		foreach ( $migrate_props as $prop => $sub_props ) {
 			if ( empty( $instance[ $prop ] ) ) {
 				$instance[ $prop ] = array();
@@ -442,6 +440,14 @@ class SiteOrigin_Widget_Button_Widget extends SiteOrigin_Widget {
 					}
 				}
 			}
+		}
+
+		// Migrate onclick setting to prevent Wordfence flag.
+		if (
+			! empty( $instance['attributes'] ) &&
+			! empty( $instance['attributes']['onclick'] )
+		) {
+			$instance['attributes']['on_click'] = $instance['attributes']['onclick'];
 		}
 
 		// If the mobile_align setting isn't set, set it to the same value as the align value.
@@ -455,6 +461,17 @@ class SiteOrigin_Widget_Button_Widget extends SiteOrigin_Widget {
 
 		return $instance;
 	}
+
+	function get_form_teaser() {
+		if ( class_exists( 'SiteOrigin_Premium' ) ) return false;
+		return array(
+			sprintf(
+				__( 'Add a beautiful tooltip to the Button Widget with %sSiteOrigin Premium%s', 'so-widgets-bundle' ),
+				'<a href="https://siteorigin.com/downloads/premium/?featured_addon=plugin/tooltip" target="_blank" rel="noopener noreferrer">',
+				'</a>'
+			),
+		);
+	}	
 }
 
 siteorigin_widget_register('sow-button', __FILE__, 'SiteOrigin_Widget_Button_Widget');

@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#: inc/Assets.php:1
+msgid "Use on legal basis of"
+msgstr "Použití na právním základě"
+
+#: inc/Assets.php:1
+msgid "Legitimate interest"
+msgstr "Oprávněný zájem"
+
+#: inc/Assets.php:1
+msgid "Compliance with a legal obligation"
+msgstr "Dodržování zákonné povinnosti"
+
+#: inc/Assets.php:1
+msgid "Consent"
+msgstr "Souhlas"
+
+#: inc/Assets.php:1
+msgid "We have recognized that you are a crawler/bot. Only natural persons must consent to cookies and processing of personal data. Therefore, the link has no function for you."
+msgstr "Rozpoznali jsme, že jste crawler/bot. Souhlas se soubory cookie a zpracováním osobních údajů musí dát pouze fyzické osoby. Proto pro vás odkaz nemá žádnou funkci."
+
+#: inc/Assets.php:1
+msgid "Technical cookie definition"
+msgstr "Technická definice souborů cookie"
+
+#: inc/Assets.php:1
+msgid "Uses cookies"
+msgstr "Používá soubory cookie"
+
+#: inc/Assets.php:1
+msgid "Cookie refresh"
+msgstr "Osvěžující soubory cookie"
+
+#: inc/Assets.php:1
+msgid "Uses cookie-like information (LocalStorage, SessionStorage, IndexDB, etc.)"
+msgstr "Používá informace podobné souborům cookie (LocalStorage, SessionStorage, IndexDB atd.)"
+
+#: inc/Assets.php:1
+msgid "Host"
+msgstr "Host"
+
+#: inc/Assets.php:1
+msgid "Duration"
+msgstr "Doba trvání"
+
+#: inc/Assets.php:1
+msgid "second(s)"
+msgstr "sekunda(y)"
+
+#: inc/Assets.php:1
+msgid "minute(s)"
+msgstr "minuta(y)"
+
+#: inc/Assets.php:1
+msgid "hour(s)"
+msgstr "hodina(y)"
+
+#: inc/Assets.php:1
+msgid "day(s)"
+msgstr "den(y)"
+
+#: inc/Assets.php:1
+msgid "month(s)"
+msgstr "měsíc(y)"
+
+#: inc/Assets.php:1
+msgid "year(s)"
+msgstr "rok(y)"
+
+#: inc/Assets.php:1
+msgid "Type"
+msgstr "Typu"
+
+#: inc/Assets.php:1
+msgid "Purpose"
+msgstr "Účel"
+
+#: inc/Assets.php:1
+msgid "History of your privacy settings"
+msgstr "Historie nastavení ochrany osobních údajů"
+
+#: inc/Assets.php:1
+msgid "Show consent from"
+msgstr "Zobrazit souhlas od"
+
+#: inc/Assets.php:1
+msgid "Not yet consented to"
+msgstr "Zatím bez souhlasu"
+
+#: inc/Assets.php:1
+msgid "Close"
+msgstr "Zavřít"
+
+#: inc/Assets.php:1
+msgid "Close without saving"
+msgstr "Zavřít bez uložení"
+
+#: inc/Assets.php:1
+msgid "Provider"
+msgstr "Poskytovatel"
+
+#: inc/Assets.php:1
+msgid "Privacy Policy"
+msgstr "Zásady ochrany osobních údajů"
+
+#: inc/Assets.php:1
+msgid "and %d more"
+msgstr "a %d dalších"
+
+#: inc/Assets.php:1
+msgid "US data processing"
+msgstr "Zpracování dat v USA"
+
+#: inc/Assets.php:1
+msgid "Yes"
+msgstr "Ano"
+
+#: inc/Assets.php:1
+msgid "No"
+msgstr "Ne"
+
+#: inc/Assets.php:1
+msgid "Unknown"
+msgstr "Neznámé"
+
+#: inc/Assets.php:1
+msgid "None"
+msgstr "Žádné"
+
+#: inc/Assets.php:1
+msgid "No license activated - not for production use!"
+msgstr "Žádná licence není aktivována - není určena pro produkční použití!"
+
+#: inc/Assets.php:1
+msgid "Product license not for production use!"
+msgstr "Licence produktu není určena pro výrobní použití!"

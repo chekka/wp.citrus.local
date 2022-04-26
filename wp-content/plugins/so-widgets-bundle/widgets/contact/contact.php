@@ -1,5 +1,4 @@
 <?php
-
 /*
 Widget Name: Contact Form
 Description: A lightweight contact form builder.
@@ -17,6 +16,7 @@ class SiteOrigin_Widgets_ContactForm_Widget extends SiteOrigin_Widget {
 			__( 'SiteOrigin Contact Form', 'so-widgets-bundle' ),
 			array(
 				'description' => __( 'A lightweight contact form builder.', 'so-widgets-bundle' ),
+				'help' => 'https://siteorigin.com/widgets-bundle/contact-form-widget/',
 			),
 			array(),
 			false,
@@ -97,7 +97,7 @@ class SiteOrigin_Widgets_ContactForm_Widget extends SiteOrigin_Widget {
 						'label' => __( 'Button ID', 'so-widgets-bundle' ),
 						'description' => __( 'An ID attribute allows you to target this button in JavaScript.', 'so-widgets-bundle' ),
 					),
-					'onclick' => array(
+					'on_click' => array(
 						'type'        => 'text',
 						'label'       => __( 'Onclick', 'so-widgets-bundle' ),
 						'description' => __( 'Run this JavaScript when the button is clicked. Ideal for tracking.', 'so-widgets-bundle' ),
@@ -202,6 +202,14 @@ class SiteOrigin_Widgets_ContactForm_Widget extends SiteOrigin_Widget {
 							'value' => array(
 								'type'  => 'text',
 								'label' => __( 'Value', 'so-widgets-bundle' ),
+							),
+							'default' => array(
+								'type'  => 'checkbox',
+								'label' => __( 'Enabled', 'so-widgets-bundle' ),
+								'state_handler' => array(
+									'field_type_{$repeater}[checkboxes]' => array( 'show' ),
+									'_else[field_type_{$repeater}]'      => array( 'hide' ),
+								),
 							),
 						),
 
@@ -753,6 +761,14 @@ class SiteOrigin_Widgets_ContactForm_Widget extends SiteOrigin_Widget {
 			);
 		}
 
+		// Migrate onclick setting to prevent Wordfence flag.
+		if (
+			! empty( $instance['settings'] ) &&
+			! empty( $instance['settings']['onclick'] )
+		) {
+			$instance['settings']['on_click'] = $instance['settings']['onclick'];
+		}
+
 		return $instance;
 	}
 
@@ -774,7 +790,7 @@ class SiteOrigin_Widgets_ContactForm_Widget extends SiteOrigin_Widget {
 		return array(
 			'instance_hash' => $instance_hash,
 			'submit_attributes' => $submit_attributes,
-			'onclick' => ! empty( $instance['settings']['onclick'] ) ? $instance['settings']['onclick'] : '',
+			'onclick' => ! empty( $instance['settings']['on_click'] ) ? $instance['settings']['on_click'] : '',
 		);
 	}
 
@@ -1337,7 +1353,12 @@ class SiteOrigin_Widgets_ContactForm_Widget extends SiteOrigin_Widget {
 			return true;
 		}
 
-		$mail_success = wp_mail( $instance['settings']['to'], $email_fields['subject'], $body, $headers );
+		$mail_success = wp_mail(
+			$instance['settings']['to'],
+			$email_fields['subject'],
+			$body,
+			apply_filters( 'siteorigin_widgets_contact_email_headers', $headers )
+		);
 		if ( $mail_success ) {
 			$hash_check[ $hash ] = time();
 			update_option( 'so_contact_hashes', $hash_check, true );

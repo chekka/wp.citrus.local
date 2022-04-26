@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Disable Gutenberg - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-07-14 07:38:10+0000\n"
+"PO-Revision-Date: 2022-01-11 04:35:52+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,10 @@ msgstr ""
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: es\n"
 "Project-Id-Version: Plugins - Disable Gutenberg - Stable (latest release)\n"
+
+#: inc/settings-register.php:46
+msgid "Disable \"Try Gutenberg\" nag (for older versions of WP)"
+msgstr "Desactivar el aviso «Prueba Gutenberg» (para versiones antiguas de WP)"
 
 #: inc/settings-register.php:45
 msgid "Disable Block Widgets and enable Classic Widgets"
@@ -32,8 +36,8 @@ msgid "Whitelist Options"
 msgstr "Opciones de lista blanca"
 
 #: inc/settings-register.php:47
-msgid "Enable frontend Gutenberg styles"
-msgstr "Activar estilos de Gutenberg en portada"
+msgid "Enable frontend Gutenberg/block styles"
+msgstr "Activar los estilos de Gutenberg/bloques en portada"
 
 #: inc/settings-register.php:47
 msgid "Enable Frontend"
@@ -99,15 +103,15 @@ msgstr "IDs de entradas que siempre deberían usar el editor de bloques"
 msgid "Whitelist Post IDs"
 msgstr "IDs de entradas en lista blanca"
 
-#: inc/plugin-features.php:94
+#: inc/plugin-features.php:96
 msgid "Classic Edit"
 msgstr "Edición clásica"
 
-#: inc/plugin-features.php:86
+#: inc/plugin-features.php:88
 msgid "Edit &#8220;%s&#8221; in the Block Editor"
 msgstr "Editar &#8220;%s&#8221; en el editor de bloques"
 
-#: inc/plugin-features.php:84
+#: inc/plugin-features.php:86
 msgid "Block Edit"
 msgstr "Edición de bloques"
 
@@ -127,7 +131,7 @@ msgstr "Desactiva el editor de bloques Gutenberg y restaurar el editor clásico 
 msgid "Hide Gutenberg plugin&rsquo;s menu item (for WP &lt; 5.0)"
 msgstr "Oculta el elemento de menú del plugin Gutenberg (para WP &lt; 5.0)"
 
-#: inc/plugin-features.php:96
+#: inc/plugin-features.php:98
 msgid "Edit &#8220;%s&#8221; in the Classic Editor"
 msgstr "Editar &#8220;%s&#8221; en el editor clásico"
 
@@ -218,10 +222,6 @@ msgstr "Restablecer opciones"
 #: inc/settings-register.php:49
 msgid "Hide this plugin&rsquo;s menu item"
 msgstr "Oculta el elemento del menú de este plugin"
-
-#: inc/settings-register.php:46
-msgid "Disable \"Try Gutenberg\" nag"
-msgstr "Desactiva el aviso «Prueba Gutenberg»"
 
 #: inc/settings-register.php:46
 msgid "Disable Nag"

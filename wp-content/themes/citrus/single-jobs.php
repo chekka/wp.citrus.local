@@ -10,15 +10,14 @@ get_header(); ?>
       the_post();
       the_content();
     ?>
-    <p class="text-center">
-      <a class="btn" href="<?php echo WP_SITEURL; ?>/kontakt.php?job=<?php the_title(); ?>">Jetzt bewerben</a>
+    <p class="text-center" style="padding-bottom:70px">
+      <a class="btn" href="<?php echo get_the_permalink(pll_get_post(get_page_by_path( 'contact' )->ID));?>">Jetzt bewerben</a>
     </p>
     <?php
-      // Previous/next post navigation.
-      the_post_navigation([
-      'next_text' => '<span class="meta-nav" aria-hidden="true">' . __('Next', 'twentyfifteen') . '</span> ' . '<span class="screen-reader-text">' . __('Next post:', 'twentyfifteen') . '</span> ' . '<span class="post-title">%title</span>',
-      'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __('Previous', 'twentyfifteen') . '</span> ' . '<span class="screen-reader-text">' . __('Previous post:', 'twentyfifteen') . '</span> ' . '<span class="post-title">%title</span>',
-      ]);
+      // the_post_navigation([
+      // 'next_text' => '<span class="meta-nav" aria-hidden="true">' . __('Next', 'twentyfifteen') . '</span> ' . '<span class="screen-reader-text">' . __('Next post:', 'twentyfifteen') . '</span> ' . '<span class="post-title">%title</span>',
+      // 'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __('Previous', 'twentyfifteen') . '</span> ' . '<span class="screen-reader-text">' . __('Previous post:', 'twentyfifteen') . '</span> ' . '<span class="post-title">%title</span>',
+      // ]);
       endwhile; 
     ?>
   </div>

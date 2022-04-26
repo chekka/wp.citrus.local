@@ -1,0 +1,11 @@
+.well-known/
+.user.ini
+.htaccess
+
+wp-config.php
+wp-content/updraft
+wp-content/uploads
+wp-content/wflogs
+
+x-db.php
+x-info.php

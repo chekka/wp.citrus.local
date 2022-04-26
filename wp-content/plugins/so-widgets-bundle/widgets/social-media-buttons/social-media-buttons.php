@@ -1,5 +1,4 @@
 <?php
-
 /*
 Widget Name: Social Media Buttons
 Description: Customizable buttons which link to all your social media profiles.
@@ -7,7 +6,6 @@ Author: SiteOrigin
 Author URI: https://siteorigin.com
 Documentation: https://siteorigin.com/widgets-bundle/social-media-buttons-widget/
 */
-
 
 class SiteOrigin_Widget_SocialMediaButtons_Widget extends SiteOrigin_Widget {
 
@@ -18,7 +16,8 @@ class SiteOrigin_Widget_SocialMediaButtons_Widget extends SiteOrigin_Widget {
 			'sow-social-media-buttons',
 			__( 'SiteOrigin Social Media Buttons', 'so-widgets-bundle' ),
 			array(
-				'description' => __( 'Customizable buttons which link to all your social media profiles.', 'so-widgets-bundle' )
+				'description' => __( 'Customizable buttons which link to all your social media profiles.', 'so-widgets-bundle' ),
+				'help' => 'https://siteorigin.com/widgets-bundle/social-media-buttons-widget/',
 			),
 			array(),
 			false,
@@ -37,9 +36,9 @@ class SiteOrigin_Widget_SocialMediaButtons_Widget extends SiteOrigin_Widget {
 		);
 	}
 
-	function get_widget_form(){
+	function get_widget_form() {
 
-		if( empty( $this->networks ) ) {
+		if ( empty( $this->networks ) ) {
 			$this->networks = include plugin_dir_path( __FILE__ ) . 'data/networks.php';
 		}
 
@@ -84,12 +83,28 @@ class SiteOrigin_Widget_SocialMediaButtons_Widget extends SiteOrigin_Widget {
 					'button_color' => array(
 						'type'  => 'color',
 						'label' => __( 'Background color', 'so-widgets-bundle' )
-					)
+					),
+					'icon_color_hover' => array(
+						'type'  => 'color',
+						'label' => __( 'Icon hover color', 'so-widgets-bundle' ),
+						'state_handler' => array(
+							'hover_effects[enabled]' => array( 'show' ),
+							'hover_effects[disabled]' => array( 'hide' ),
+						),
+					),
+					'button_color_hover' => array(
+						'type'  => 'color',
+						'label' => __( 'Background hover color', 'so-widgets-bundle' ),
+						'state_handler' => array(
+							'hover_effects[enabled]' => array( 'show' ),
+							'hover_effects[disabled]' => array( 'hide' ),
+						),
+					),
 				)
 			),
 			'design'   => array(
 				'type'   => 'section',
-				'label'  => __( 'Design and layout', 'so-widgets-bundle' ),
+				'label'  => __( 'Design and Layout', 'so-widgets-bundle' ),
 				'hide'   => true,
 				'fields' => array(
 					'new_window' => array(
@@ -110,7 +125,14 @@ class SiteOrigin_Widget_SocialMediaButtons_Widget extends SiteOrigin_Widget {
 					'hover'      => array(
 						'type'    => 'checkbox',
 						'label'   => __( 'Use hover effects', 'so-widgets-bundle' ),
-						'default' => true
+						'default' => true,
+						'state_emitter' => array(
+							'callback' => 'conditional',
+							'args'     => array(
+								'hover_effects[enabled]: val',
+								'hover_effects[disabled]: ! val',
+							),
+						),
 					),
 					'icon_size'  => array(
 						'type'    => 'select',
@@ -206,7 +228,7 @@ class SiteOrigin_Widget_SocialMediaButtons_Widget extends SiteOrigin_Widget {
 	}
 
 	function get_javascript_variables() {
-		if( empty( $this->networks ) ) {
+		if ( empty( $this->networks ) ) {
 			$this->networks = include plugin_dir_path( __FILE__ ) . 'data/networks.php';
 		}
 
@@ -231,7 +253,7 @@ class SiteOrigin_Widget_SocialMediaButtons_Widget extends SiteOrigin_Widget {
 	}
 
 	function get_less_variables( $instance ) {
-		if( empty( $instance ) ) return;
+		if ( empty( $instance ) ) return;
 
 		$design = $instance['design'];
 		$m      = $design['margin'];
@@ -267,9 +289,13 @@ class SiteOrigin_Widget_SocialMediaButtons_Widget extends SiteOrigin_Widget {
 		$calls    = array();
 		foreach ( $networks as $network ) {
 			if ( ! empty( $network['name'] ) ) {
+				$icon_color_hover_fallback = ! empty( $network['icon_color'] ) ? ', @icon_color_hover:' . $network['icon_color'] : '';
+				$button_color_hover_fallback = ! empty( $network['button_color'] ) ? ', @button_color_hover:' . $network['button_color'] : '';
 				$call = $args[0] . '( @name:' . $network['css_class_name'];
 				$call .= ! empty( $network['icon_color'] ) ? ', @icon_color:' . $network['icon_color'] : '';
 				$call .= ! empty( $network['button_color'] ) ? ', @button_color:' . $network['button_color'] : '';
+				$call .= ! empty( $network['icon_color_hover'] ) ? ', @icon_color_hover:' . $network['icon_color_hover'] : $icon_color_hover_fallback;
+				$call .= ! empty( $network['button_color_hover'] ) ? ', @button_color_hover:' . $network['button_color_hover'] : $button_color_hover_fallback;
 				$call .= ');';
 				$calls[] = $call;
 			}
@@ -314,11 +340,11 @@ class SiteOrigin_Widget_SocialMediaButtons_Widget extends SiteOrigin_Widget {
 	 *
 	 * @return array
 	 */
-	protected function get_style_hash_variables( $instance ){
-		$networks = $this->get_instance_networks($instance);
+	protected function get_style_hash_variables( $instance ) {
+		$networks = $this->get_instance_networks( $instance );
 
-		foreach($networks as $i => $network) {
-			// URL is not important for the styling
+		foreach ( $networks as $i => $network ) {
+			// URL is not important for the styling.
 			unset($networks[$i]['url']);
 		}
 
@@ -328,8 +354,8 @@ class SiteOrigin_Widget_SocialMediaButtons_Widget extends SiteOrigin_Widget {
 		);
 	}
 
-	function get_form_teaser(){
-		if( class_exists( 'SiteOrigin_Premium' ) ) return false;
+	function get_form_teaser() {
+		if ( class_exists( 'SiteOrigin_Premium' ) ) return false;
 
 		return sprintf(
 			__( 'Add custom social networks with %sSiteOrigin Premium%s', 'so-widgets-bundle' ),

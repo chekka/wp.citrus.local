@@ -582,16 +582,18 @@ module.exports = panels.view.dialog.extend( {
 			var $$ = $( this );
 			var panelsData = thisView.builder.model.getPanelsData();
 			var postName = $( 'input[name="post_title"], .editor-post-title__input' ).val();
-			if ( ! postName ) {
-				postName = $('input[name="post_ID"]').val();
-			} else if ( $( '.block-editor-page' ).length ) {
+			if ( ( ! postName || postName === '' ) && $( '.block-editor-page' ).length ) {
+				postName = $( '.wp-block-post-title' ).text();
+			}
+			panelsData.name = postName !== '' ? postName : $( 'input[name="post_ID"]' ).val();
+
+			// Append block position id to filename.
+			if ( $( '.block-editor-page' ).length ) {
 				var currentBlockPosition = thisView.getCurrentBlockPosition();
 				if ( currentBlockPosition >= 0 ) {
-					postName += '-' + currentBlockPosition; 
+					panelsData.name += '-' + currentBlockPosition; 
 				}
-
 			}
-			panelsData.name = postName;
 			$$.find( 'input[name="panels_export_data"]' ).val( JSON.stringify( panelsData ) );
 		} );
 
@@ -1856,7 +1858,8 @@ module.exports = panels.view.dialog.extend( {
 			'action': 'so_panels_widget_form',
 			'widget': this.model.get( 'class' ),
 			'instance': JSON.stringify( this.model.get( 'values' ) ),
-			'raw': this.model.get( 'raw' )
+			'raw': this.model.get( 'raw' ),
+			'postId': this.builder.config.postId
 		};
 
 		var $soContent = this.$( '.so-content' );
@@ -2797,7 +2800,7 @@ jQuery( function ( $ ) {
 
 // WP 5.7+: Prevent undesired "restore content" notice.
 if ( typeof window.wp.autosave !== 'undefined' && jQuery( '#siteorigin-panels-metabox' ).length ) {
-	jQuery( document ).on( 'ready', function( e ) {
+	jQuery( function( e ) {
 		var blog_id = typeof window.autosaveL10n !== 'undefined' && window.autosaveL10n.blog_id;
 		
 		// Ensure sessionStorage is working, and we were able to find a blog id.
@@ -3721,6 +3724,10 @@ module.exports = Backbone.Model.extend( {
 	 * @returns string The "cleaned" title.
 	 */
 	cleanTitle: function( title ) {
+		// Prevent situation where invalid titles are processed for cleaning.
+		if ( typeof title !== 'string' ) {
+			return false;
+		}
 		title = title.replace( /<\/?[^>]+(>|$)/g, "" );
 		var parts = title.split( " " );
 		parts = parts.slice( 0, 20 );
@@ -3731,26 +3738,48 @@ module.exports = Backbone.Model.extend( {
 	 * Iterate an array and find a valid field we can use for a title. Supports multidimensional arrays.
 	 *
 	 * @param values An array containing field values.
+	 * @returns object thisView The current widget instance.
+	 * @returns object fields The fields we're specifically check for.
+	 * @param object check_sub_fields Whether we should check sub fields.
+	 *
 	 * @returns string The title we found. If we weren't able to find one, it returns false.
 	 */
-	getTitleFromValues: function( values, thisView ) {
+	getTitleFromValues: function( values, thisView, fields = false, check_sub_fields = true ) {
 		var widgetTitle = false;
 		for ( const k in values ) {
 			if ( typeof values[ k ] == 'object' ) {
-				// Field is an array, check child for valid titles.
-				widgetTitle = thisView.getTitleFromValues( values[ k ], thisView );
+				if ( check_sub_fields ) {
+					// Field is an object, check child for valid titles.
+					widgetTitle = thisView.getTitleFromValues( values[ k ], thisView, fields );
+					if ( widgetTitle ) {
+						break;
+					}
+				}
+			// Check for predefined title fields.
+			} else if ( typeof fields == 'object' ) {
+				for ( var i = 0; i < fields.length; i++ ) {
+					if ( k == fields[i] ) {
+						widgetTitle = thisView.cleanTitle( values[ k ] )
+						if ( widgetTitle ) {
+							break;
+						}
+					}
+				}
 				if ( widgetTitle ) {
 					break;
 				}
 			// Ensure field isn't a required WB field, and if its not, confirm it's valid.
 			} else if (
-				k.charAt(0) !== '_' &&
+				typeof fields != 'object' &&
+				k.charAt( 0 ) !== '_' &&
 				k !== 'so_sidebar_emulator_id' &&
 				k !== 'option_name' &&
 				thisView.isValidTitle( values[ k ] )
 			) {
 				widgetTitle = thisView.cleanTitle( values[ k ] )
-				break;
+				if ( widgetTitle ) {
+					break;
+				}
 			}
 		};
 
@@ -3783,15 +3812,15 @@ module.exports = Backbone.Model.extend( {
 		var widgetTitle = false;
 
 		// Check titleFields for valid titles.
-		_.each( titleFields, function( title ) {
-			if ( ! widgetTitle && thisView.isValidTitle( values[ title ] ) ) {
-				widgetTitle = thisView.cleanTitle( values[ title ] );
-				return false;
-			}
-		} );
+		widgetTitle = this.getTitleFromValues(
+			values,
+			thisView,
+			titleFields,
+			typeof widgetData.panels_title_check_sub_fields != 'undefined' ? widgetData.panels_title_check_sub_fields : false
+		);
 
 		if ( ! widgetTitle && ! titleFieldOnly ) {
-			// No titles were found. Let's check the rest of the fields for a valid title..
+			// No titles were found. Let's check the rest of the fields for a valid title.
 			widgetTitle = this.getTitleFromValues( values, thisView );
 		}
 
@@ -4532,8 +4561,9 @@ module.exports = Backbone.View.extend( {
 		var builderID = builderView.$el.attr( 'id' );
 
 		// Create the sortable for the rows
-		this.rowsSortable = this.$( '.so-rows-container' ).sortable( {
-			appendTo: '#wpwrap',
+		var wpVersion = $( 'body' ).attr( 'class' ).match( /branch-([0-9-]+)/ )[0].replace( /\D/g,'' );
+		this.rowsSortable = this.$( '.so-rows-container:not(.sow-row-color)' ).sortable( {
+			appendTo: wpVersion >= 59 ? 'parent' : '#wpwrap',
 			items: '.so-row-container',
 			handle: '.so-row-move',
 			// For the block editor, where it's possible to have multiple Page Builder blocks on a page.
@@ -4795,7 +4825,7 @@ module.exports = Backbone.View.extend( {
 		// Display the live editor button in the toolbar
 		if ( this.liveEditor.hasPreviewUrl() ) {
 			var addLEButton = false;
-			if ( ! panels.helpers.editor.isBlockEditor() ) {
+			if ( ! panels.helpers.editor.isBlockEditor() || $( '.widgets-php' ).length ) {
 				addLEButton = true;
 			} else if ( wp.data.select( 'core/editor' ).getEditedPostAttribute( 'status' ) != 'auto-draft' ) {
 				addLEButton = true;
@@ -6329,11 +6359,7 @@ module.exports = Backbone.View.extend( {
 	closeAndSave: function(){
 		this.close( false );
 		// Finds the submit input for saving without publishing draft posts.
-		if ( $( '.block-editor-page' ).length ) {
-			$( '.editor-post-publish-button' )[0].click();
-		} else {
-			$( '#submitdiv input[type="submit"][name="save"]' )[0].click();
-		}
+		$( '#submitdiv input[type="submit"][name="save"], .editor-post-publish-button, .edit-widgets-header__actions .is-primary' )[0].click();
 	},
 
 	/**
@@ -6714,14 +6740,17 @@ module.exports = Backbone.View.extend( {
 	 * Toggle Visibility: Check if row is hidden and apply fade as needed.
 	 */
 	toggleVisibilityFade: function() {
-		var currentRowStyle = this.model.attributes.style;
+		var styles = this.model.attributes.style;
+		if ( typeof styles == 'undefined' ) {
+			return;
+		}
 		if (
-			this.checkIfStyleExists( currentRowStyle, 'disable_row' ) ||
-			this.checkIfStyleExists( currentRowStyle, 'disable_desktop' ) ||
-			this.checkIfStyleExists( currentRowStyle, 'disable_tablet' ) ||
-			this.checkIfStyleExists( currentRowStyle, 'disable_mobile' ) ||
-			this.checkIfStyleExists( currentRowStyle, 'disable_logged_in' ) ||
-			this.checkIfStyleExists( currentRowStyle, 'disable_logged_out' )
+			this.checkIfStyleExists( styles, 'disable_row' ) ||
+			this.checkIfStyleExists( styles, 'disable_desktop' ) ||
+			this.checkIfStyleExists( styles, 'disable_tablet' ) ||
+			this.checkIfStyleExists( styles, 'disable_mobile' ) ||
+			this.checkIfStyleExists( styles, 'disable_logged_in' ) ||
+			this.checkIfStyleExists( styles, 'disable_logged_out' )
 		) {
 			this.$el.addClass( 'so-hidden-row' );
 		} else {
@@ -7482,14 +7511,17 @@ module.exports = Backbone.View.extend( {
 	 * Toggle Visibility: Check if row is hidden and apply fade as needed.
 	 */
 	toggleVisibilityFade: function() {
-		var currentRowStyle = this.model.attributes.style;
+		var styles = this.model.attributes.style;
+		if ( typeof styles == 'undefined' ) {
+			return;
+		}
 		if (
-			this.checkIfStyleExists( currentRowStyle, 'disable_widget' ) ||
-			this.checkIfStyleExists( currentRowStyle, 'disable_desktop' ) ||
-			this.checkIfStyleExists( currentRowStyle, 'disable_tablet' ) ||
-			this.checkIfStyleExists( currentRowStyle, 'disable_mobile' ) ||
-			this.checkIfStyleExists( currentRowStyle, 'disable_logged_in' ) ||
-			this.checkIfStyleExists( currentRowStyle, 'disable_logged_out' )
+			this.checkIfStyleExists( styles, 'disable_widget' ) ||
+			this.checkIfStyleExists( styles, 'disable_desktop' ) ||
+			this.checkIfStyleExists( styles, 'disable_tablet' ) ||
+			this.checkIfStyleExists( styles, 'disable_mobile' ) ||
+			this.checkIfStyleExists( styles, 'disable_logged_in' ) ||
+			this.checkIfStyleExists( styles, 'disable_logged_out' )
 		) {
 			this.$el.addClass( 'so-hidden-widget' );
 		} else {
